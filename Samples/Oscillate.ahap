@@ -1,0 +1,46 @@
+{
+  "Version" : 1,
+  "Metadata" : {
+    "Project" : "Haptic Sampler",
+    "Created" : "5 June 2019",
+    "Description" : "A mixture of two continuous events, shifting the sharpness of one to create a smooth oscillating feel."
+  },
+  "Pattern" : [
+    {
+      "Event" : {
+        "EventParameters" : [
+          {
+            "ParameterID" : "HapticIntensity",
+            "ParameterValue" : 0.5
+          },
+          {
+            "ParameterID" : "HapticSharpness",
+            "ParameterValue" : 0.20000000298023224
+          }
+        ],
+        "EventType" : "HapticContinuous",
+        "Time" : 0,
+        "EventWaveformPath" : null,
+        "EventDuration" : 1
+      }
+    },
+    {
+      "Event" : {
+        "EventParameters" : [
+          {
+            "ParameterID" : "HapticIntensity",
+            "ParameterValue" : 0.5
+          },
+          {
+            "ParameterID" : "HapticSharpness",
+            "ParameterValue" : 0.10000000149011612
+          }
+        ],
+        "EventType" : "HapticContinuous",
+        "Time" : 0,
+        "EventWaveformPath" : null,
+        "EventDuration" : 1
+      }
+    }
+  ]
+}
