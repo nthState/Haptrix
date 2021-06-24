@@ -23,4 +23,9 @@ Download here [iOS App Store](https://apps.apple.com/us/app/id1467942077)
 Search for a Haptic to suit your needs, download into the macOS App, or play on your
 iOS Device.
 
+## Swift Package
+
+If you want to download your Haptic files into your App without re-building, use the [HaptrixSync](https://github.com/nthState/HaptrixSync) Package 
+
+
 Visit [https://www.haptrix.com](https://www.haptrix.com)
