@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "keywords": "name, event",
+    "description": "Event Name"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "events.json"],
+  "links": [],
+  "helpBookAnchor": "eventName",
+  "urls": {
+        "web": "/event/name",
+        "markdown": "EventName.md",
+        "appleHelpBook": "eventName.html",
+        "githubDocs": "eventName.html"
+      },
+  "title": "Event Name",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "Identifiable Names",
+        "text": "Sometimes when creating a Haptic it's useful to give a name to a particular event, like the major hit, the event name is a useful parameter you can set on each event to find an event in the timeline",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

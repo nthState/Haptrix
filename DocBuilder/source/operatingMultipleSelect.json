@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "keywords": "Multiple, Select",
+    "description": "Selecting multiple items at once and editing them together"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "operating.json"],
+  "links": [],
+  "helpBookAnchor": "operatingMultipleSelect",
+  "urls": {
+        "web": "/operating/multipleSelect",
+        "markdown": "OperatingMultipleSelect.md",
+        "appleHelpBook": "operatingMultipleSelect.html",
+        "githubDocs": "operatingMultipleSelect.html"
+      },
+  "title": "Multiple Select",
+  "body": "Haptrix allows you to select multiple events and edit their shared properties at the same time.",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "Multiple Edit",
+        "text": "You can change the property of multiple selected items when they are all selected together",
+        "image": "media/images/multipleEdit.png",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

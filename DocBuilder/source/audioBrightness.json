@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "keywords": "audio, brightness",
+    "description": "Audio Brightness"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "events.json"],
+  "links": [],
+  "helpBookAnchor": "audioBrightness",
+  "urls": {
+        "web": "/audio/brightness",
+        "markdown": "AudioBrightness.md",
+        "appleHelpBook": "audioBrightness.html",
+        "githubDocs": "audioBrightness.html"
+      },
+  "title": "Audio Brightness",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

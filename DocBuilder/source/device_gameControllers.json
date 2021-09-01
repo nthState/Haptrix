@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "keywords": "device, game, controller, ps5, xbox, run",
+    "description": "Creating Haptics for Game Controllers"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "runOnDevice.json"],
+  "links": [],
+  "helpBookAnchor": "deviceGameControllers",
+  "urls": {
+        "web": "/device/gamecontrollers",
+        "markdown": "Device_GameControllers.md",
+        "appleHelpBook": "device_gameControllers.html",
+        "githubDocs": "device_gameControllers.html"
+      },
+  "title": "Game Controllers",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "PlayStation 5 Dual Sense Controller",
+        "text": "The Dual Sense Controller is a remarkable bit of kit. The PS5 Controller supports playing a Core Haptic file straight out of the box. Use the Export Menu in Haptrix to export a stub to help get you started",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Xbox Series X Controller",
+        "text": "The Xbox Series X Controller also supports Core Haptics, I would say it's not as accurate as the PS5 Controller.",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

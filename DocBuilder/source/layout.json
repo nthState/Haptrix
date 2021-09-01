@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "keywords": "layout",
+    "description": "THe layout of the panels in Haptrix"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json"],
+  "links": [],
+  "helpBookAnchor": "layout",
+  "urls": {
+        "web": "/layout",
+        "markdown": "Layout.md",
+        "appleHelpBook": "layout.html",
+        "githubDocs": "layout.html"
+      },
+  "title": "App Layout",
+  "body": "Haptrix is laid out into three main screens, the canvas, where you draw, the inspector where you can refine, and the timeline where you can quickly find a specific event",
+  "bodyImage": "media/images/layout.png",
+  "sections": [
+    {
+        "title": "Menu",
+        "text": "",
+        "link": "menu.json",
+        "linkText": "Menu",
+        "image": "media/images/menu.png"
+    },
+    {
+        "title": "Toolbar",
+        "text": "Quick Access to swap between Haptic Events, Uploading and Running on Device",
+        "link": "toolbar.json",
+        "linkText": "Toolbar",
+        "image": "media/images/toolbar.png"
+    },
+    {
+        "title": "Canvas",
+        "text": "Your main work area",
+        "link": "canvas.json",
+        "linkText": "Canvas",
+        "image": "media/images/canvas.png"
+    },
+    {
+        "title": "Timeline",
+        "text": "A list of Haptic Events",
+        "link": "timeline.json",
+        "linkText": "Timeline",
+        "image": "media/images/timeline.png"
+    },
+    {
+        "title": "Inspector",
+        "text": "Change the individual properties of Haptic Elements, or configure project settings",
+        "link": "inspector.json",
+        "linkText": "Inspector",
+        "image": "media/images/inspectorMetaData.png"
+    },
+    {
+        "title": "Dark Mode",
+        "text": "Haptrix supports DarkMode for both its macOS & iOS Apps",
+        "link": "darkMode.json",
+        "linkText": "Dark Mode",
+        "image": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

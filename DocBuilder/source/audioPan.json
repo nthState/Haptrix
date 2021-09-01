@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "keywords": "audio, pan",
+    "description": "Audio Pan"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "events.json"],
+  "links": [],
+  "helpBookAnchor": "audioPan",
+  "urls": {
+        "web": "/audio/pan",
+        "markdown": "AudioPan.md",
+        "appleHelpBook": "audioPan.html",
+        "githubDocs": "audioPan.html"
+      },
+  "title": "Audio Pan",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "Audio Pan",
+        "text": "Left (-1) to Right (1) Audio from",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

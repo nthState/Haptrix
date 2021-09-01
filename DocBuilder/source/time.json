@@ -1,0 +1,53 @@
+{
+	"metadata": {
+		"keywords": "time, haptic, event",
+		"description": "The start time of a Haptic Event"
+	},
+	"media": {
+		"images": [{
+			"lowres": "",
+			"hires": ""
+		}],
+		"videos": [{
+			"url": ""
+		}]
+	},
+	"related": [],
+	"children": [],
+	"breadcrumbs": ["index.json", "events.json"],
+	"links": [],
+  "helpBookAnchor": "time",
+	"urls": {
+		"web": "/time",
+		"markdown": "Time.md",
+		"appleHelpBook": "time.html",
+    "githubDocs": "time.html"
+	},
+	"title": "Time",
+	"body": "",
+	"bodyImage": "",
+	"sections": [{
+			"title": "What is time?",
+			"text": "In a less metaphorical sense, every event in Haptrix has a time element, it denotes when an event starts from 0 seconds.",
+			"image": "",
+			"link": "",
+			"linkText": "",
+			"externalLink": ""
+		},
+		{
+			"title": "Min/Max Time",
+			"text": "The minimum start time for an event is zero-seconds, and generally a Haptic should last less than 30 seconds. Longer than that and you may run into issues",
+			"image": "",
+			"link": "",
+			"linkText": "",
+			"externalLink": ""
+		}
+	],
+	"export": {
+		"include": [
+			"applehelpbook",
+			"web",
+			"markdown"
+		]
+	}
+}

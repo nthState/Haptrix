@@ -1,0 +1,55 @@
+{
+	"metadata": {
+		"keywords": "export, swift, web, api",
+		"description": "Exporting to different File Types"
+	},
+	"media": {
+		"images": [{
+			"lowres": "",
+			"hires": ""
+		}],
+		"videos": [{
+			"url": ""
+		}]
+	},
+	"related": [],
+	"children": [],
+	"breadcrumbs": ["index.json", "toolbar.json"],
+	"links": [],
+  "helpBookAnchor": "export",
+	"urls": {
+        "web": "/export",
+        "markdown": "Export.md",
+        "appleHelpBook": "export.html",
+        "githubDocs": "export.html"
+      },
+	"title": "Exporting from Haptrix",
+	"body": "Haptrix supports multiple export formats",
+	"bodyImage": "media/images/exportMenu.png",
+	"sections": [
+	    {
+			"title": "Export to *.AHAP File",
+			"text": "The default option Haptrix supports is writing to AHAP files directly, these are the files which are supported natively by iOS "
+		},
+		{
+			"title": "Export to Web Vibration API",
+			"text": "Mobile Browsers like Chrome support the Web Vibration API, by using Javascript you can play a basic version of a Core Haptic file",
+			"externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API"
+		},
+		{
+			"title": "Export to Swift Code",
+			"text": "Haptrix can also generate pure Swift code for your Haptic, whilst it is easier to use a AHAP file, sometimes you may wish to write code"
+		},
+		{
+			"title": "Export for Game Controllers",
+			"text": "PlayStation 5 Dual Sense and Xbox Series X Controllers support Core Haptics, this export option allows you to export setup code to run you Haptic Experience.If you connect a controller to your Mac, you can use run on device just like an iPhone to feel the vibration.Multiple controllers can be connected at once."
+		}
+	],
+	"export": {
+		"include": [
+			"applehelpbook",
+			"web",
+			"markdown"
+		]
+	}
+}

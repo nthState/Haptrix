@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "keywords": "parameter, curve",
+    "description": "Creating a curve over your Pattern to control a specific parameter"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": ["parameterCurvePoint.json"],
+  "children": [],
+  "breadcrumbs": ["index.json", "events.json"],
+  "links": [],
+  "helpBookAnchor": "parameterCurve",
+  "urls": {
+        "web": "/parameterCurve",
+        "markdown": "ParameterCurve.md",
+        "appleHelpBook": "parameterCurve.html",
+        "githubDocs": "parameterCurve.html"
+      },
+  "title": "Parameter Curve",
+  "body": "",
+  "bodyImage": "media/images/inspectorParameterCurve.png",
+  "sections": [
+    {
+        "title": "What is a Parameter Curve?",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "What is a Parameter Curves' Parameter Type?",
+        "text": "Intensity, Sharpness, Brightness, Pan, Pitch, Volume",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Name",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Parameter Type",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Time",
+        "text": "",
+        "image": "",
+        "link": "time.json",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Points",
+        "text": "",
+        "image": "",
+        "link": "parameterCurvePoint.json",
+        "linkText": "Parameter Curve Point",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

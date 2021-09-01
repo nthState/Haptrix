@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "keywords": "inspector",
+    "description": "A panel where you can adjust properties of Haptic Events and Meta Data"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "layout.json"],
+  "links": [],
+  "helpBookAnchor": "inspector",
+  "urls": {
+        "web": "/layout/inspector",
+        "markdown": "Inspector.md",
+        "appleHelpBook": "inspector.html",
+        "githubDocs": "inspector.html"
+      },
+  "title": "Inspector",
+  "body": "The Inspector sits on the right hand side of the App, it's where you will adjust most properties",
+  "bodyImage": "media/images/inspectorHapticContinuous.png",
+  "sections": [
+    {
+        "title": "Selecting an Item",
+        "text": "When you select an item either on the Canvas, or within the Timeline, the Inspector will update to show what properties you can edit",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Selecting Nothing",
+        "text": "If you select a blank area, the Inspector will revert to it's default state of showing you Metadata for the project",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

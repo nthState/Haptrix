@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "keywords": "metadata, meta",
+    "description": "Creating MetaData for your Project"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json"],
+  "links": [],
+  "helpBookAnchor": "metaData",
+  "urls": {
+        "web": "/metaData",
+        "markdown": "MetaData.md",
+        "appleHelpBook": "metadata.html",
+        "githubDocs": "metaData.html"
+      },
+  "title": "MetaData",
+  "body": "",
+  "bodyImage": "media/images/inspectorMetaData.png",
+  "sections": [
+    {
+        "title": "What is MetaData?",
+        "text": "Haptrix allows you to store additional fields of pertinent information along with your Haptic file.",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "What MetaData do we support?",
+        "text": "See the Fields below for what fields we currently support in the MetaData section",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Field: Project",
+        "text": "You may have multiple Haptic files in your Project, you can use the Project field to group them",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Field: Created",
+        "text": "A string representing the date the file was created",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Field: Title",
+        "text": "A short sentence explaining the file",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Field: Description",
+        "text": "A couple of sentences explaining the file",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Field: Tags",
+        "text": "A comma separated array of searchable keywords that represent the feeling of the experience",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

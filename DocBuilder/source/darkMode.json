@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "keywords": "dark, mode",
+    "description": "Dark Mode"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json"],
+  "links": [],
+  "helpBookAnchor": "darkMode",
+  "urls": {
+        "web": "/darkMode",
+        "markdown": "DarkMode.md",
+        "appleHelpBook": "darkMode.html",
+        "githubDocs": "darkMode.html"
+      },
+  "title": "Dark Mode",
+  "body": "",
+  "bodyImage": "media/images/darkMode.png",
+  "sections": [
+    {
+        "title": "We've got you covered",
+        "text": "I've added DarkMode to both macOS & iOS versions of Haptrix",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

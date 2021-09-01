@@ -1,0 +1,46 @@
+* {
+	margin: 0px;
+	padding: 20px;
+	list-style: none;
+	border: none;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	background: #fafafa;
+}
+
+h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    padding: 20px;
+}
+
+nav {
+    border-bottom: 1px solid black;
+}
+
+.crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.crumb {
+    display: inline-block;
+}
+
+.crumb a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+img {
+    width: 33%;
+}

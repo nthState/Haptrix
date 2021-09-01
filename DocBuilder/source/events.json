@@ -1,0 +1,78 @@
+{
+	"metadata": {
+		"keywords": "events",
+		"description": "Types of Events in a Core Haptic"
+	},
+	"media": {
+		"images": [{
+			"lowres": "",
+			"hires": ""
+		}],
+		"videos": [{
+			"url": ""
+		}]
+	},
+	"related": [],
+	"children": [],
+	"breadcrumbs": ["index.json"],
+	"links": [],
+  "helpBookAnchor": "events",
+	"urls": {
+		"web": "/eventType",
+		"markdown": "EventType.md",
+		"appleHelpBook": "eventType.html",
+        "githubDocs": "events.html"
+	},
+	"title": "Events",
+	"body": "",
+	"bodyImage": "media/images/toolbar.png",
+	"sections": [
+	    {
+			"title": "Haptic Transient",
+			"text": "",
+			"image": "",
+			"link": "hapticTransient.json",
+			"linkText": "Haptic Transient",
+			"externalLink": ""
+		},
+		{
+			"title": "Haptic Continuous",
+			"text": "",
+			"image": "",
+			"link": "hapticContinuous.json",
+			"linkText": "Haptic Continuous",
+			"externalLink": ""
+		},
+		{
+			"title": "Audio Custom",
+			"text": "",
+			"image": "",
+			"link": "audioCustom.json",
+			"linkText": "Audio Custom",
+			"externalLink": ""
+		},
+		{
+			"title": "Audio Continuous",
+			"text": "",
+			"image": "",
+			"link": "audioContinuous.json",
+			"linkText": "Audio Continuous",
+			"externalLink": ""
+		},
+		{
+			"title": "Parameter Curve",
+			"text": "",
+			"image": "",
+			"link": "parameterCurve.json",
+			"linkText": "Parameter Curve",
+			"externalLink": ""
+		}
+	],
+	"export": {
+		"include": [
+			"applehelpbook",
+			"web",
+			"markdown"
+		]
+	}
+}

@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "keywords": "Audio, Waveform",
+    "description": "Audio Waveform"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "events.json"],
+  "links": [],
+  "helpBookAnchor": "audioWaveform",
+  "urls": {
+        "web": "/audio/waveform",
+        "markdown": "AudioWaveform.md",
+        "appleHelpBook": "audioWaveform.html",
+        "githubDocs": "audioWaveform.html"
+      },
+  "title": "Audio Waveform",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "What is Waveform?",
+        "text": "You can play audio files/music along with your haptic, you can sync for instance, audio to fireworks so you feel the taps of explosions",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "What Events support Waveform?",
+        "text": "All Audio Events support Waveform",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Automatically Sequencing Audio",
+        "text": "Use the Audio Sequencer to import Audio & automatically add haptic events where beats are detected",
+        "image": "",
+        "link": "sequenceAudio.json",
+        "linkText": "Sequencing Audio",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

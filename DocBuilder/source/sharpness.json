@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "keywords": "Sharpness",
+    "description": "The Sharpness of your Haptic"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "events.json"],
+  "links": [],
+  "helpBookAnchor": "sharpness",
+  "urls": {
+        "web": "/sharpness",
+        "markdown": "Sharpness.md",
+        "appleHelpBook": "sharpness.html",
+    "githubDocs": "sharpness.html"
+      },
+  "title": "Sharpness",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "text": "Sharpness"
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

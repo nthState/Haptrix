@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "keywords": "Intensity",
+    "description": "How hard your Haptic hits"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "events.json"],
+  "links": [],
+  "helpBookAnchor": "intensity",
+  "urls": {
+        "web": "/intensity",
+        "markdown": "Intensity.md",
+        "appleHelpBook": "intensity.html",
+        "githubDocs": "intensity.html"
+      },
+  "title": "Intensity",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

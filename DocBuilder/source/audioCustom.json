@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "keywords": "Audio, Custom",
+    "description": "Audio Custom"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "events.json"],
+  "links": [],
+  "helpBookAnchor": "audioCustom",
+  "urls": {
+        "web": "/audio/custom",
+        "markdown": "AudioCustom.md",
+        "appleHelpBook": "audioCustom.html",
+        "githubDocs": "audioCustom.html"
+      },
+  "title": "Audio Custom",
+  "body": "",
+  "bodyImage": "media/images/inspectorAudioCustom.png",
+  "sections": [
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Name",
+        "text": "",
+        "image": "",
+        "link": "eventName.json",
+        "linkText": "Event name",
+        "externalLink": ""
+    },
+    {
+        "title": "Event Type",
+        "text": "",
+        "image": "",
+        "link": "events.json",
+        "linkText": "Events",
+        "externalLink": ""
+    },
+    {
+        "title": "Time",
+        "text": "",
+        "image": "",
+        "link": "time.json",
+        "linkText": "Time",
+        "externalLink": ""
+    },
+    {
+        "title": "Duration",
+        "text": "",
+        "image": "",
+        "link": "duration.json",
+        "linkText": "Duration",
+        "externalLink": ""
+    },
+    {
+        "title": "File",
+        "text": "",
+        "image": "",
+        "link": "audioWaveform.json",
+        "linkText": "Audio Waveform",
+        "externalLink": ""
+    },
+    {
+        "title": "Attack",
+        "text": "",
+        "image": "",
+        "link": "adsrAttack.json",
+        "linkText": "ADSR Attack",
+        "externalLink": ""
+    },
+    {
+        "title": "Decay",
+        "text": "",
+        "image": "",
+        "link": "adsrDecay.json",
+        "linkText": "ADSR Decay",
+        "externalLink": ""
+    },
+    {
+        "title": "Release",
+        "text": "",
+        "image": "",
+        "link": "adsrRelease.json",
+        "linkText": "ADSR Release",
+        "externalLink": ""
+    },
+    {
+        "title": "Sustain",
+        "text": "",
+        "image": "",
+        "link": "adsrSustain.json",
+        "linkText": "ADSR Sustain",
+        "externalLink": ""
+    },
+    {
+        "title": "Brightness",
+        "text": "",
+        "image": "",
+        "link": "audioBrightness.json",
+        "linkText": "Audio Brightness",
+        "externalLink": ""
+    },
+    {
+        "title": "Volume",
+        "text": "",
+        "image": "",
+        "link": "audioVolume.json",
+        "linkText": "Audio Volume",
+        "externalLink": ""
+    },
+    {
+        "title": "Pan",
+        "text": "",
+        "image": "",
+        "link": "audioPan.json",
+        "linkText": "Audio Pan",
+        "externalLink": ""
+    },
+    {
+        "title": "Pitch",
+        "text": "",
+        "image": "",
+        "link": "audioPitch.json",
+        "linkText": "Audio Pitch",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

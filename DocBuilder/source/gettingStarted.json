@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "keywords": "getting, started, quick, start",
+    "description": "Getting Started with Haptrix"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json"],
+  "links": [],
+  "helpBookAnchor": "gettingStarted",
+  "urls": {
+        "web": "/gettingStarted",
+        "markdown": "GettingStarted.md",
+        "appleHelpBook": "gettingStarted.html",
+        "githubDocs": "gettingStarted.html"
+      },
+  "title": "Getting Started",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "Prerequisites",
+        "text": "Find out what need to get started with Haptrix",
+        "image": "",
+        "link": "prerequisites.json",
+        "linkText": "Prerequisites",
+        "externalLink": ""
+    },
+    {
+        "title": "Installing Haptrix",
+        "text": "Please visit the Mac App Store to download Haptrix",
+        "image": "",
+        "link": "",
+        "linkText": "Mac App Store",
+        "externalLink": "https://apps.apple.com/us/app/id887185157"
+    },
+    {
+        "title": "Launching Haptrix",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Creating your first Core Haptic Experience",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Testing your Haptic on a Real Device",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "keywords": "prerequisites, getting, started",
+    "description": "What you need to get started with Haptrix"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "gettingStarted.json"],
+  "links": [],
+  "helpBookAnchor": "prerequisites",
+  "urls": {
+        "web": "/prerequisites",
+        "markdown": "Prerequisites.md",
+        "appleHelpBook": "prerequisites.html",
+        "githubDocs": "prerequisites.html"
+      },
+  "title": "Getting Started",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "Use an Apple Computer",
+        "text": "To use Haptrix, you need to use an Apple Computer",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": "https://www.apple.com"
+    },
+    {
+        "title": "Internet Connection",
+        "text": "To download Haptrix, you need an Internet connection",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Disk Space (10MB)",
+        "text": "The installed size of Haptrix is about 10MB, so you need to have at least that on your computer. Then if you want to save files, *.AHAP files are typically a few kilobytes each.",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Use macOS (minimum 10.15)",
+        "text": "We support macOS 10.15 as a minimum installable version, this will change over time as never version of macOS come out.",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": "https://www.apple.com/macos"
+    },
+    {
+        "title": "iPhone (minimum iPhone 8)",
+        "text": "If you want to test your Haptics on an iPhone you will need an iPhone with a Taptic Engine, this can be found in iPhone 8 and greater.",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": "https://www.apple.com/iphone/"
+    },
+    {
+        "title": "Game Controller",
+        "text": "If you're testing Haptics on a game controller, Haptrix supports PlayStation 5 Dual Sense, and Xbox Series X controllers",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

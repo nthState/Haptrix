@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "keywords": "cloud",
+    "description": "Sharing your Haptics with the World"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json"],
+  "links": [],
+  "helpBookAnchor": "cloud",
+  "urls": {
+        "web": "/cloud",
+        "markdown": "Cloud.md",
+        "appleHelpBook": "cloud.html",
+        "githubDocs": "cloud.html"
+      },
+  "title": "Cloud",
+  "body": "",
+  "bodyImage": "media/images/cloud.png",
+  "sections": [
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

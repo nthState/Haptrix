@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "keywords": "timeline",
+    "description": "A list of all of your Haptic Events"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": ["timelineToolbar.json"],
+  "children": [],
+  "breadcrumbs": ["index.json", "layout.json"],
+  "links": [],
+  "helpBookAnchor": "layoutTimeline",
+  "urls": {
+        "web": "/layout/timeline",
+        "markdown": "Layout_Timeline.md",
+        "appleHelpBook": "layoutTimeline.html",
+    "githubDocs": "timeline.html"
+      },
+  "title": "Timeline",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "What is the Timeline?",
+        "text": "The Timeline is a list of all Events in your Haptic file, every Event you add will be added to the timeline",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Selecting an Event in the Timeline",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Deleting an Event from the Timeline",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Adjusting the Time of an Event in the Timeline",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Adjusting the Duration of an Event in the Timeline",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "keywords": "audio, volume",
+    "description": "Audio Volume"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "events.json"],
+  "links": [],
+  "helpBookAnchor": "audioVolume",
+  "urls": {
+        "web": "/audio/volume",
+        "markdown": "AudioVolume.md",
+        "appleHelpBook": "audioVolume.html",
+        "githubDocs": "audioVolume.html"
+      },
+  "title": "Audio Volume",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "What is Volume?",
+        "text": "An Audio file can be really quiet, or really loud, this represents volume",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "What are the levels of Volume?",
+        "text": "Volume ranges from 0 to +1, with 0 being silent, and +1 being the loudest.",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "What Events support Volume?",
+        "text": "All Audio events support Volume",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "keywords": "timeline, toolbar",
+    "description": "Quick Controls useful when editing your pattern"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": ["toolbar.json"],
+  "children": [],
+  "breadcrumbs": ["index.json", "layout.json", "timeline.json"],
+  "links": [],
+  "helpBookAnchor": "layoutTimelineToolbar",
+  "urls": {
+        "web": "/layout/timeline/toolbar",
+        "markdown": "Layout_Timeline_Toolbar.md",
+        "appleHelpBook": "layoutTimelineToolbar.html",
+    "githubDocs": "layoutTimelineToolbar.html"
+      },
+  "title": "Timeline Toolbar",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "text": "The Timeline has a Toolbar which contains quick actions.",
+        "image": "media/images/timelineToolbar.png",
+        "imageTooltip": "Timeline Toolbar"
+    },
+    {
+        "title": "What is the Timeline Toolbar?",
+        "text": "The Timeline Toolbar sits above the Toolbar and offers quick and often used actions when designing your Haptics",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Play/Stop Button",
+        "text": "If you have Audio in your Project, using the Play button will play the first audio file, it's useful for checking if your events are firing in the right place",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Zoom Slider",
+        "text": "The zoom slider allows you to quickly zoom in and out of the canvas",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Show/Hide Glyphs",
+        "text": "Toggle the visibility of glyphs",
+        "image": "",
+        "link": "glyphs.json",
+        "linkText": "Glyphs",
+        "externalLink": ""
+    },
+    {
+        "title": "Filter Events",
+        "text": "If you want to display only a certain type of events, use this dropdown to change the visibility of events, or view them all",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Sort Events",
+        "text": "Sort the events by start time in the timeline, you can sort Ascending or Descending",
+        "image": "",
+        "link": "timeline.json",
+        "linkText": "Timeline",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

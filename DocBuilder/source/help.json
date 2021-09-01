@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "keywords": "help, documentation",
+    "description": "Help on using the documentation"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json"],
+  "links": [],
+  "helpBookAnchor": "help",
+   "urls": {
+        "web": "/help",
+        "markdown": "Help.md",
+        "appleHelpBook": "help.html",
+        "githubDocs": "help.html"
+      },
+  "title": "Help on using the Documentation",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "How to use the Documentation",
+        "text": "If you're stuck on using a particular tool, or need a deeper understanding of something in Haptrix, the documentation is a great first place to look for answers, I've tried to cover all areas of the App, if there is something I've missed, please send me a message.",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Why does this Documentation exist?",
+        "text": "I've written the documentation to help you understand how Haptrix works, how it can help you create Haptic Experiences",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

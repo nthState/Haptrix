@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "keywords": "mouse, touch, drag, tap, click, shift",
+    "description": "Shortcuts when using a Mouse/Trackpad"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "operating.json"],
+  "links": [],
+  "helpBookAnchor": "mouseOperations",
+  "urls": {
+        "web": "/mouse",
+        "markdown": "Mouse.md",
+        "appleHelpBook": "mouse.html",
+        "githubDocs": "mouseOperations.html"
+      },
+  "title": "Mouse Operations",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "text": "Mouse Operations"
+    },
+    {
+        "title": "Window Selection Tool",
+        "text": "Whilst the Arrow tool is selected, holding down the Command Key allows you to draw a selection around multiple items. This allows you to select the items at once for Multiple Select",
+        "image": "media/images/mouse_windowSelection.png",
+        "link": "operatingMultipleSelect.json",
+        "linkText": "Multiple Select",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "keywords": "adsr, attack",
+    "description": "ADSR Attack"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": ["adsrRelease.json", "adsrSustain.json", "adsrDecay.json"],
+  "children": [],
+  "breadcrumbs": ["index.json", "events.json", "adsr.json"],
+  "links": [],
+  "helpBookAnchor": "adsrAttack",
+  "urls": {
+        "web": "/adsr/attack",
+        "markdown": "ADSRAttack.md",
+        "appleHelpBook": "adsrAttack.html",
+        "githubDocs": "adsrAttack.html"
+      },
+  "title": "Attack ADSR",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

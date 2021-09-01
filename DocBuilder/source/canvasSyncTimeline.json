@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "keywords": "canvas, sync, timeline",
+    "description": "Syncing the Timeline with the Canvas"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "layout.json", "canvas.json"],
+  "links": [],
+  "helpBookAnchor": "canvasSyncTimeline",
+  "urls": {
+        "web": "/canvas/sync/timeline",
+        "markdown": "CanvasSyncTimeline.md",
+        "appleHelpBook": "canvasSyncTimeline.html",
+        "githubDocs": "canvasSyncTimeline.html"
+      },
+  "title": "Canvas Sync Timeline",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

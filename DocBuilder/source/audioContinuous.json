@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "keywords": "Audio, Continuous",
+    "description": "Audio Continuous"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "events.json"],
+  "links": [],
+  "helpBookAnchor": "audioContinuous",
+  "urls": {
+        "web": "/audio/continuous",
+        "markdown": "AudioContinuous.md",
+        "appleHelpBook": "audioContinuous.html",
+        "githubDocs": "audioContinuous.html"
+      },
+  "title": "Audio Continuous",
+  "body": "",
+  "bodyImage": "media/images/inspectorAudioContinuous.png",
+  "sections": [
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Name",
+        "text": "",
+        "image": "",
+        "link": "eventName.json",
+        "linkText": "Event Name",
+        "externalLink": ""
+    },
+    {
+        "title": "Event Type",
+        "text": "",
+        "image": "",
+        "link": "events.json",
+        "linkText": "Events",
+        "externalLink": ""
+    },
+    {
+        "title": "Time",
+        "text": "",
+        "image": "",
+        "link": "time.json",
+        "linkText": "Time",
+        "externalLink": ""
+    },
+    {
+        "title": "File",
+        "text": "",
+        "image": "",
+        "link": "audioWaveform.json",
+        "linkText": "Audio Waveform",
+        "externalLink": ""
+    },
+    {
+        "title": "Brightness",
+        "text": "",
+        "image": "",
+        "link": "audioBrightness.json",
+        "linkText": "Audio Brightness",
+        "externalLink": ""
+    },
+    {
+        "title": "Volume",
+        "text": "",
+        "image": "",
+        "link": "audioVolume.json",
+        "linkText": "Audio Volume",
+        "externalLink": ""
+    },
+    {
+        "title": "Pan",
+        "text": "",
+        "image": "",
+        "link": "audioPan.json",
+        "linkText": "Audio Pan",
+        "externalLink": ""
+    },
+    {
+        "title": "Pitch",
+        "text": "",
+        "image": "",
+        "link": "audioPitch.json",
+        "linkText": "Audio Pitch",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

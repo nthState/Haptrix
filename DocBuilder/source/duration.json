@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "keywords": "duration",
+    "description": "How long a Haptic Event lasts"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "events.json"],
+  "links": [],
+  "helpBookAnchor": "duration",
+   "urls": {
+        "web": "/duration",
+        "markdown": "Duration.md",
+        "appleHelpBook": "duration.html",
+        "githubDocs": "duration.html"
+      },
+  "title": "Duration",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "What is Duration",
+        "text": "Duration affects only a few events, Haptic Continuous for instance have a duration as when the event starts it lasts for a specific amount of time",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Which Events support Duration?",
+        "text": "Haptic Continuous, Audio Continuous & Audio Custom support the Duration property",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "keywords": "sequence, audio, beat, detection, algorithm",
+    "description": "Importing & Sequencing Audio"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json"],
+  "links": [],
+  "helpBookAnchor": "sequenceAudio",
+  "urls": {
+        "web": "/sequenceAudio",
+        "markdown": "SequenceAudio.md",
+        "appleHelpBook": "sequenceAudio.html",
+    "githubDocs": "sequenceAudio.html"
+      },
+  "title": "Sequencing Audio",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "text": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

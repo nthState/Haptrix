@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "keywords": "adsr, decay",
+    "description": "ADSR Decay"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": ["adsrAttack.json", "adsrRelease.json", "adsrSustain.json"],
+  "children": [],
+  "breadcrumbs": ["index.json", "events.json", "adsr.json"],
+  "links": [],
+  "helpBookAnchor": "adsrDecay",
+  "urls": {
+        "web": "/adsr/decay",
+        "markdown": "ADSRDecay.md",
+        "appleHelpBook": "adsrDecay.html",
+        "githubDocs": "adsrDecay.html"
+      },
+  "title": "Decay ADSR",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

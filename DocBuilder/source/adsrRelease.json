@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "keywords": "adsr, release",
+    "description": "ADSR Release"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": ["adsrAttack.json", "adsrDecay.json", "adsrSustain.json"],
+  "children": [],
+  "breadcrumbs": ["index.json", "events.json", "adsr.json"],
+  "links": [],
+  "helpBookAnchor": "adsrRelease",
+  "urls": {
+        "web": "/adsr/release",
+        "markdown": "ADSRRelease.md",
+        "appleHelpBook": "adsrRelease.html",
+        "githubDocs": "adsrRelease.html"
+      },
+  "title": "Release ADSR",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "text": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

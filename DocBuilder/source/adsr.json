@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "keywords": "adsr, attack, decay, sustain, release",
+    "description": "ADSR, Attack, Decay, Sustain & Release"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "events.json"],
+  "links": [],
+  "helpBookAnchor": "adsr",
+  "urls": {
+        "web": "/adsr",
+        "markdown": "ADSR.md",
+        "appleHelpBook": "adsr.html",
+        "githubDocs": "adsr.html"
+      },
+  "title": "Attack, Decay, Sustain & Release",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "Attack",
+        "text": "Attack is the time taken for initial run-up of level from nil to peak, beginning when the key is pressed.",
+        "image": "",
+        "link": "adsrAttack.json",
+        "linkText": "Attack",
+        "externalLink": ""
+    },
+    {
+        "title": "Decay",
+        "text": "Decay is the time taken for the subsequent run down from the attack level to the designated sustain level.",
+        "image": "",
+        "link": "adsrDecay.json",
+        "linkText": "Decay",
+        "externalLink": ""
+    },
+    {
+        "title": "Sustain",
+        "text": "Sustain is the level during the main sequence of the sound's duration, until the key is released.",
+        "image": "",
+        "link": "adsrSustain.json",
+        "linkText": "Sustain",
+        "externalLink": ""
+    },
+    {
+        "title": "Release",
+        "text": "Release is the time taken for the level to decay from the sustain level to zero",
+        "image": "",
+        "link": "adsrRelease.json",
+        "linkText": "Release",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

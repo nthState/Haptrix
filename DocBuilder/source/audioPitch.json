@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "keywords": "audio, pitch",
+    "description": "Audio Pitch"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "events.json"],
+  "links": [],
+  "helpBookAnchor": "audioPitch",
+  "urls": {
+        "web": "/audio/pitch",
+        "markdown": "AudioPitch.md",
+        "appleHelpBook": "audioPitch.html",
+        "githubDocs": "audioPitch.html"
+      },
+  "title": "Audio Pitch",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "What is Pitch?",
+        "text": "If you've heard people inhale helium and speak, you know that their voice goes really high and squeaky, conversely, inhaling sulfur hexafluoride makes your voice go really deep. This represents pitch",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "What are the Ranges of Pitch?",
+        "text": "In Haptrix, Pitch ranges from -1 to +1, with 0 being no-pitch-affected, -1 represents a deeper sound, +1 a higher sound",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "What Events support Pitch?",
+        "text": "Audio events support Pitch",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

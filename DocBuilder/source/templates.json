@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "keywords": "templates",
+    "description": "A selection of default templates you can use to quickly get started"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": ["menu.json"],
+  "children": [],
+  "breadcrumbs": ["index.json", "menu.json"],
+  "links": [],
+  "helpBookAnchor": "templates",
+  "urls": {
+        "web": "/templates",
+        "markdown": "Templates.md",
+        "appleHelpBook": "templates.html",
+    "githubDocs": "templates.html"
+      },
+  "title": "Templates",
+  "body": "Pre-Made Templates",
+  "bodyImage": "media/images/templates.png",
+  "sections": [
+    {
+        "title": "What are Templates?",
+        "text": "Haptrix ships with a selection of pre-made Haptic files that you can instantly load into the Canvas and modify to your needs",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

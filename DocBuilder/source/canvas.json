@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "keywords": "canvas",
+    "description": "Canvas"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "layout.json"],
+  "links": [],
+  "helpBookAnchor": "canvas",
+  "urls": {
+        "web": "/layout/canvas",
+        "markdown": "Canvas.md",
+        "appleHelpBook": "canvas.html",
+        "githubDocs": "canvas.html"
+      },
+  "title": "Canvas",
+  "body": "",
+  "bodyImage": "media/images/canvas.png",
+  "sections": [
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

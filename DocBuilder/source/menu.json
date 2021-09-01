@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "keywords": "menu",
+    "description": "Using Menu Options in Haptrix"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "layout.json"],
+  "links": [],
+  "helpBookAnchor": "menu",
+  "urls": {
+        "web": "/menu",
+        "markdown": "Menu.md",
+        "appleHelpBook": "menu.html",
+        "githubDocs": "menu.html"
+      },
+  "title": "Menu",
+  "body": "",
+  "bodyImage": "media/images/menu.png",
+  "sections": [
+    {
+        "title": "File -> Export",
+        "text": "Exporting your creations",
+        "link": "export.json",
+        "linkText": "Exporting"
+    },
+    {
+        "title": "File -> Templates",
+        "text": "Creating a Haptic from a pre-made sample",
+        "link": "templates.json",
+        "linkText": "Templates"
+    },
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

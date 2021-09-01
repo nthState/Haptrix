@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+  <title>{{ title }}</title>
+  <meta charset="UTF-8">
+  <meta name="robots" content="anchors, keywords">
+  <meta name="keywords" content="{{ metadata.keywords }}" />
+  <meta name="description" content="{{ metadata.description }}" />
+  <link rel="stylesheet" href="css/stylesheet.css" />
+</head>
+	
+<body>
+
+    <a name="{{ helpBookAnchor }}"></a>
+    <h1>{{ title }}</h1>
+
+    {% if body %}
+    <p>{{ body }}</p>
+    {% endif %}
+
+    {% if bodyImage %}
+    <p><img src="{{ bodyImage }}" /></p>
+    {% endif %}
+    
+    {% if breadcrumbs %}
+    <div class="crumbs">
+    <ol>
+    {% for crumb in breadcrumbs %}
+        <li class="crumb"><a href="{{ crumb }}">{{ crumb | replace(".html", "") | capitalize }}</a></li>
+    {% endfor %}
+    </ol>
+    </div>
+    {% endif %}
+
+    {% for section in sections %}
+    <h3>{{ section.title }}</h3>
+    <p>{{ section.text }}</p>
+    {% if section.image %}<p><img alt="{{ section.imageTooltip }}" src="{{ section.image }}" /></p>{% endif %}
+    {% if section.videoFile %}<p><video src="{{ section.videoFile }}" /></p>{% endif %}
+    {% if section.link %}<p><a href="{{ section.link }}">{{ section.link | replace(".html", "") | capitalize }}</a></p>{% endif %}
+    {% if section.externalLink %}<p><a href="{{ section.externalLink }}">{{ section.externalLink }}</a></p>{% endif %}
+    {% endfor %}
+    
+    <br />
+    <p>Find out more at <a href="https://www.haptrix.com" title="Haptrix">www.haptrix.com</a></p>
+	  
+</body>
+</html>
+

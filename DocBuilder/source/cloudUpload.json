@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "keywords": "cloud, upload",
+    "description": "Upload a Haptic to Haptrix"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "cloud.json"],
+  "links": [],
+  "helpBookAnchor": "cloudUpload",
+  "urls": {
+        "web": "/cloud/upload",
+        "markdown": "CloudUpload.md",
+        "appleHelpBook": "cloudUpload.html",
+        "githubDocs": "cloudUpload.html"
+      },
+  "title": "Upload",
+  "body": "",
+  "bodyImage": "media/images/cloudUpload.png",
+  "sections": [
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

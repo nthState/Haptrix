@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "keywords": "run, device, ps5, xbox, controller, iphone",
+    "description": "Running your Haptic on a Device"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "toolbar.json"],
+  "links": [],
+  "helpBookAnchor": "runOnDevice",
+  "urls": {
+    "web": "/run",
+    "markdown": "RunOnDevice.md",
+    "appleHelpBook": "runOnDevice.html",
+    "githubDocs": "runOnDevice.html"
+  },
+  "title": "Run on Device",
+  "body": "When you want to test out your Haptic, pressing Run on Device will send the Haptic to a connected device so that you can quickly experience it",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "iPhone",
+        "text": "To enable running device on the iPhone, you must either run the iOS Haptrix App, or use the Haptrix Sync Swift Package",
+        "link": "device_iPhone.json",
+        "linkText": "iPhone"
+    },
+    {
+        "title": "Game Controller Support",
+        "text": "We support both PlayStation 5 Dual Sense and Xbox Series X Controllers",
+        "link": "device_gameControllers.json",
+        "linkText": "Game Controllers"
+    },
+    {
+        "title": "Mutli Device Testing",
+        "text": "If you have an iPhone, PS5 & Xbox controller connected to your macOS device, when you press Run on Device, all devices will play the Haptic at the same time.",
+        "link": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

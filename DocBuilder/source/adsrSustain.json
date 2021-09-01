@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "keywords": "adsr, sustain",
+    "description": "ADSR Sustain"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": ["adsrAttack.json", "adsrRelease.json", "adsrDecay.json"],
+  "children": [],
+  "breadcrumbs": ["index.json", "events.json", "adsr.json"],
+  "links": [],
+  "helpBookAnchor": "adsrSustain",
+  "urls": {
+        "web": "/adsr/sustain",
+        "markdown": "ADSRSustain.md",
+        "appleHelpBook": "adsrSustain.html",
+        "githubDocs": "adsrSustain.html"
+      },
+  "title": "Sustain ADSR",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "text": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

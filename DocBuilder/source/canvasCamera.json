@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "keywords": "canvas, camera, zoom",
+    "description": "How to use the camera on the Canvas"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "layout.json", "canvas.json"],
+  "links": [],
+  "helpBookAnchor": "canvasCamera",
+  "urls": {
+        "web": "/canvas/camera",
+        "markdown": "CanvasCamera.md",
+        "appleHelpBook": "canvasCamera.html",
+        "githubDocs": "canvasCamera.html"
+      },
+  "title": "Canvas Camera",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "What is the Camera?",
+        "text": "The canvas has a concept of a Camera, this allows you to move freely around your work area and zoom in and out",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "How do I Move with a Mouse?",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "How do I Move with a Trackpad?",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "How do I Zoom in and Out with a Mouse?",
+        "text": "If you use a mouse with a scroll-wheel, you can scroll the wheel to zoom in and out. ",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "How do I Zoom in and Out with a Trackpad?",
+        "text": "If you are using a trackpad, you can use a two-finger gesture to zoom in and out",
+        "image": "",
+        "link": "timelineToolbar.json",
+        "linkText": "Timeline Toolbar Zoom Slider",
+        "externalLink": ""
+    },
+    {
+        "title": "Other Zoom methods",
+        "text": "Alternatively, you can use the slider in the timeline toolbar",
+        "image": "",
+        "link": "timelineToolbar.json",
+        "linkText": "Timeline Toolbar Zoom Slider",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

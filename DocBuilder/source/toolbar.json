@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "keywords": "toolbar, tools, move, select, selection, transient, haptic, audio, continuous, run, dynamic, export",
+    "description": "You can switch tools in the Toolbar to different Haptic Events"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "layout.json"],
+  "links": [],
+  "helpBookAnchor": "layoutToolbar",
+  "urls": {
+        "web": "/layout/toolbar",
+        "markdown": "Layout_Toolbar.md",
+        "appleHelpBook": "layoutToolbar.html",
+    "githubDocs": "layoutToolbar.html"
+      },
+  "title": "Toolbar",
+  "body": "A selection of Haptic Events and Tools to use when designing",
+  "bodyImage": "media/images/toolbar.png",
+  "sections": [
+    {
+        "title": "Canvas Move Tool",
+        "text": "",
+        "link": ""
+    },
+    {
+        "title": "Selection Tool",
+        "text": "",
+        "link": ""
+    },
+    {
+        "title": "Haptic Transient Tool",
+        "text": "",
+        "link": "hapticTransient.json",
+        "linkText": "Haptic Transient"
+    },
+    {
+        "title": "Haptic Continuous Tool",
+        "text": "",
+        "link": "hapticContinuous.json",
+        "linkText": "Haptic Continuous"
+    },
+    {
+        "title": "Audio Custom Tool",
+        "text": "",
+        "link": "audioCustom.json",
+        "linkText": "Audio Custom"
+    },
+    {
+        "title": "Audio Continuous Tool",
+        "text": "",
+        "link": "audioContinuous.json",
+        "linkText": "Audio Continuous"
+    },
+    {
+        "title": "Dynamic Tool",
+        "text": "",
+        "link": ""
+    },
+    {
+        "title": "Parameter Curve Tool",
+        "text": "",
+        "link": "parameterCurve.json",
+        "linkText": "Parameter Curve"
+    },
+    {
+        "title": "Upload & Share",
+        "text": "",
+        "link": "cloud.json",
+        "linkText": "Cloud"
+    },
+    {
+        "title": "Export",
+        "text": "",
+        "link": "export.json",
+        "linkText": "Export"
+    },
+    {
+        "title": "Run on Device",
+        "text": "Use the CMD+R Shortcut to run the active windows Haptic on all connected iPhones & Game Controllers",
+        "link": "runOnDevice.json",
+        "linkText": "Run on Device"
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

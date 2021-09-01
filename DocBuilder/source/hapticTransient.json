@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "keywords": "Haptic, Transient",
+    "description": "A Short Haptic Event"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "events.json"],
+  "links": [],
+  "helpBookAnchor": "hapticTransient",
+  "urls": {
+        "web": "/haptic/transient",
+        "markdown": "HapticTransient.md",
+        "appleHelpBook": "hapticTransient.html",
+        "githubDocs": "hapticTransient.html"
+      },
+  "title": "Haptic Transient",
+  "body": "",
+  "bodyImage": "media/images/inspectorHapticTransient.png",
+  "sections": [
+    {
+        "title": "What is a Transient?",
+        "text": "The most commonly use Haptic Event is the Transient event, like hitting a drum, the effect is instant and lasts very briefly",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Name",
+        "text": "",
+        "image": "",
+        "link": "eventName.json",
+        "linkText": "Event Name",
+        "externalLink": ""
+    },
+    {
+        "title": "Event Type",
+        "text": "",
+        "image": "",
+        "link": "events.json",
+        "linkText": "Events",
+        "externalLink": ""
+    },
+    {
+        "title": "Time",
+        "text": "",
+        "image": "",
+        "link": "time.json",
+        "linkText": "Time",
+        "externalLink": ""
+    },
+    {
+        "title": "Sharpness",
+        "text": "",
+        "image": "",
+        "link": "sharpness.json",
+        "linkText": "Sharpness",
+        "externalLink": ""
+    },
+    {
+        "title": "Intensity",
+        "text": "",
+        "image": "",
+        "link": "intensity.json",
+        "linkText": "Intensity",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

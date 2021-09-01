@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "keywords": "parameter, curve, point",
+    "description": "An individual control point in a Parameter Curve"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": ["parameterCurve.json"],
+  "children": [],
+  "breadcrumbs": ["index.json", "events.json", "parameterCurve.json"],
+  "links": [],
+  "helpBookAnchor": "parameterCurvePoint",
+  "urls": {
+        "web": "/parameterCurve/point",
+        "markdown": "ParameterCurvePoint.md",
+        "appleHelpBook": "parameterCurvePoint.html",
+        "githubDocs": "parameterCurvePoint.html"
+      },
+  "title": "Parameter Curve Point",
+  "body": "",
+  "bodyImage": "media/images/inspectorParameterCurvePoint.png",
+  "sections": [
+    {
+        "title": "What is a Parameter Curve Point",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Time",
+        "text": "Time in a Parameter Curve Point is relative to the start time of the parent Parameter Curve",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Value",
+        "text": "Dependant on the type of the parent Parameter Curve, the Value can be between -1 to +1",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

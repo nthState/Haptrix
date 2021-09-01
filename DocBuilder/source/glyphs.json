@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "keywords": "glyphs",
+    "description": "Useful Icons indicating different values for a Haptic Pattern"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "canvas.json"],
+  "links": [],
+  "helpBookAnchor": "glyphs",
+  "urls": {
+        "web": "/canvas/glyphs",
+        "markdown": "CanvasGlyphs.md",
+        "appleHelpBook": "canvasGlyphs.html",
+        "githubDocs": "glyphs.html"
+      },
+  "title": "Glyphs",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "keywords": "cloud, register",
+    "description": "Create an Account with Haptrix"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "cloud.json"],
+  "links": [],
+  "helpBookAnchor": "cloudRegister",
+  "urls": {
+        "web": "/cloud/register",
+        "markdown": "CloudRegister.md",
+        "appleHelpBook": "cloudRegister.html",
+        "githubDocs": "cloudRegister.html"
+      },
+  "title": "Register",
+  "body": "",
+  "bodyImage": "media/images/cloudRegister.png",
+  "sections": [
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

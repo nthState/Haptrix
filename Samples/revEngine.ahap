@@ -1,0 +1,44 @@
+{
+  "Version" : 1,
+  "Metadata" : {
+    "Project" : "My Project",
+    "Created" : "",
+    "Description" : "Generated with Haptrix www.haptrix.com by nthState"
+  },
+  "Pattern" : [
+    {
+      "Event" : {
+        "EventParameters" : [
+          {
+            "ParameterID" : "HapticIntensity",
+            "ParameterValue" : 1
+          },
+          {
+            "ParameterID" : "HapticSharpness",
+            "ParameterValue" : 0.69800001382827759
+          }
+        ],
+        "EventType" : "HapticContinuous",
+        "Time" : 0.27400000000000002,
+        "EventDuration" : 0.19800000000000001
+      }
+    },
+    {
+      "Event" : {
+        "EventParameters" : [
+          {
+            "ParameterID" : "HapticIntensity",
+            "ParameterValue" : 0.54500001668930054
+          },
+          {
+            "ParameterID" : "HapticSharpness",
+            "ParameterValue" : 0.26600000262260437
+          }
+        ],
+        "EventType" : "HapticContinuous",
+        "Time" : 0.14199999999999999,
+        "EventDuration" : 0.50900000000000001
+      }
+    }
+  ]
+}

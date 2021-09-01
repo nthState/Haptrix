@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "keywords": "Haptic, Continuous",
+    "description": "A Haptic Event that has a duration"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "events.json"],
+  "links": [],
+  "helpBookAnchor": "hapticContinuous",
+  "urls": {
+        "web": "/haptic/continuous",
+        "markdown": "HapticContinuous.md",
+        "appleHelpBook": "hapticContinuous.html",
+        "githubDocs": "hapticContinuous.html"
+      },
+  "title": "Haptic Continuous",
+  "body": "",
+  "bodyImage": "media/images/inspectorHapticContinuous.png",
+  "sections": [
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Name",
+        "text": "",
+        "image": "",
+        "link": "eventName.json",
+        "linkText": "Event Name",
+        "externalLink": ""
+    },
+    {
+        "title": "Event Type",
+        "text": "",
+        "image": "",
+        "link": "events.json",
+        "linkText": "Events",
+        "externalLink": ""
+    },
+    {
+        "title": "Time",
+        "text": "",
+        "image": "",
+        "link": "time.json",
+        "linkText": "Time",
+        "externalLink": ""
+    },
+    {
+        "title": "Duration",
+        "text": "",
+        "image": "",
+        "link": "duration.json",
+        "linkText": "Duration",
+        "externalLink": ""
+    },
+    {
+        "title": "Sharpness",
+        "text": "",
+        "image": "",
+        "link": "sharpness.json",
+        "linkText": "Sharpness",
+        "externalLink": ""
+    },
+    {
+        "title": "Intensity",
+        "text": "",
+        "image": "",
+        "link": "intensity.json",
+        "linkText": "Intensity",
+        "externalLink": ""
+    },
+    {
+        "title": "Attack",
+        "text": "",
+        "image": "",
+        "link": "adsrAttack.json",
+        "linkText": "ADSR Attack",
+        "externalLink": ""
+    },
+    {
+        "title": "Decay",
+        "text": "",
+        "image": "",
+        "link": "adsrDecay.json",
+        "linkText": "ADSR Decay",
+        "externalLink": ""
+    },
+    {
+        "title": "Release",
+        "text": "",
+        "image": "",
+        "link": "adsrRelease.json",
+        "linkText": "ADSR Release",
+        "externalLink": ""
+    },
+    {
+        "title": "Sustain",
+        "text": "",
+        "image": "",
+        "link": "adsrSustain.json",
+        "linkText": "ADSR Sustain",
+        "externalLink": ""
+    },
+    {
+        "title": "Overlapping Sections",
+        "text": "",
+        "videoFile": "media/video/overlap_1.mov"
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

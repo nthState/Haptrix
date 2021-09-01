@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "keywords": "device, iphone, run",
+    "description": "Creating Haptics for iPhone"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "runOnDevice.json"],
+  "links": [],
+  "helpBookAnchor": "deviceiPhone",
+  "urls": {
+        "web": "/device/iPHone",
+        "markdown": "Device_iPhone.md",
+        "appleHelpBook": "device_iPhone.html",
+        "githubDocs": "device_iPhone.html"
+      },
+  "title": "iPhone",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

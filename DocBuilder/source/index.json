@@ -1,0 +1,74 @@
+{
+	"metadata": {
+		"keywords": "index, home, haptrix, readme, help",
+		"description": "Home Page of Haptrix Help"
+	},
+	"media": {
+		"images": [{
+			"lowres": "",
+			"hires": ""
+		}],
+		"videos": [{
+			"url": ""
+		}]
+	},
+	"related": [],
+	"children": [],
+	"breadcrumbs": ["index.json"],
+	"links": [],
+    "helpBookAnchor": "index",
+	"urls": {
+		"web": "/",
+		"markdown": "README.md",
+		"appleHelpBook": "index.html",
+        "githubDocs": "index.html"
+	},
+	"title": "Welcome to Haptrix Help Documentation",
+	"body": "",
+	"bodyImage": "media/images/layout.png",
+	"sections": [
+	    {
+			"title": "Getting Started",
+			"text": "A QuickStart Guide to getting started with Haptrix",
+			"linkText": "Learn how to use Haptrix",
+			"link": "gettingStarted.json"
+		},
+		{
+			"title": "Find even more Haptics Online",
+			"text": "Browse the Haptrix website for a ready made Haptic Experience to suit your needs, or find one and edit it",
+			"linkText": "www.haptrix.com",
+			"externalLink": "https://www.haptrix.com"
+		},
+	    {
+			"title": "Events",
+			"text": "There are many events in a Haptic file, Transient, Continuous, Audio, Dynamic, Parameters, find out more here",
+			"linkText": "More on Events",
+			"link": "events.json"
+		},
+		{
+			"title": "Using Haptrix",
+			"text": "How to operate the different controls, find out about using Keyboard and Mouse Shortcuts",
+			"linkText": "Operating",
+			"link": "operating.json"
+		},
+		{
+			"title": "App Layout",
+			"text": "Explore the different windows that make up the App",
+			"linkText": "Layout",
+			"link": "layout.json"
+		},
+		{
+			"title": "Help using the Documentation",
+			"text": "Help on how to use the documentation",
+			"linkText": "Help",
+			"link": "help.json"
+		}
+	],
+	"export": {
+		"include": [
+			"applehelpbook",
+			"web",
+			"markdown"
+		]
+	}
+}

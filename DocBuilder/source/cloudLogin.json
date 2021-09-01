@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "keywords": "cloud, login",
+    "description": "Logging into Haptrix"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "cloud.json"],
+  "links": [],
+  "helpBookAnchor": "cloudLogin",
+  "urls": {
+        "web": "/cloud/login",
+        "markdown": "CloudLogin.md",
+        "appleHelpBook": "cloudLogin.html",
+        "githubDocs": "cloudLogin.html"
+      },
+  "title": "Login",
+  "body": "",
+  "bodyImage": "media/images/cloudLogin.png",
+  "sections": [
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}

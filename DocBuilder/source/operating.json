@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "keywords": "mouse, toolbar, shortcut",
+    "description": "General App Usage"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json"],
+  "links": [],
+  "helpBookAnchor": "operating",
+  "urls": {
+        "web": "/operating",
+        "markdown": "Operating.md",
+        "appleHelpBook": "operating.html",
+        "githubDocs": "operating.html"
+      },
+  "title": "General Operations",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "Using the Toolbar",
+        "text": "",
+        "image": "",
+        "link": "toolbar.json",
+        "linkText": "Toolbar",
+        "externalLink": ""
+    },
+    {
+        "title": "Mouse Operations & Shortcuts",
+        "text": "",
+        "image": "",
+        "link": "mouseOperations.json",
+        "linkText": "Mouse Operations",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}
