@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "keywords": "parametric, randomise, randomize",
+    "description": "Parametric Design with Randomise"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "menu.json"],
+  "links": [],
+  "helpBookAnchor": "randomise",
+  "urls": {
+        "web": "/randomise",
+        "markdown": "Randomise.md",
+        "appleHelpBook": "randomise.html",
+        "githubDocs": "randomise.html"
+      },
+  "title": "Parametric Design with Randomise",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "What is Parametric Design",
+        "text": "",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Keyboard Shortcut",
+        "text": "Pressing CMD+A on your keyboard will take your design and run a randomise on it",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}
