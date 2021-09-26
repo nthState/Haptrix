@@ -18,7 +18,7 @@ Navigation: [README](README.md)
 
 ### Haptic Transient
 
-
+A short haptic hit
 
 
 
@@ -27,7 +27,7 @@ Navigation: [README](README.md)
 
 ### Haptic Continuous
 
-
+A haptic that lasts a certain amount of time
 
 
 
@@ -36,7 +36,7 @@ Navigation: [README](README.md)
 
 ### Audio Custom
 
-
+An audio clip
 
 
 
@@ -45,7 +45,7 @@ Navigation: [README](README.md)
 
 ### Audio Continuous
 
-
+An audio clip
 
 
 
@@ -54,7 +54,7 @@ Navigation: [README](README.md)
 
 ### Parameter Curve
 
-
+A curve that modulates your Haptic
 
 
 

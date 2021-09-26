@@ -16,7 +16,7 @@ Navigation: [README](README.md) - [EventType](EventType.md)
 
 ### Audio Pan
 
-Left (-1) to Right (1) Audio from
+The side of the speaker that the sound comes from can be set as, Left (-1) to Right (1)
 
 
 

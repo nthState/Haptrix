@@ -14,9 +14,9 @@ Navigation: [README](README.md) - [EventType](EventType.md) - [ADSR](ADSR.md)
 ---
 
 
-### 
+### Decay
 
-
+Decay is the time taken for the subsequent run down from the attack level to the designated sustain level.
 
 
 

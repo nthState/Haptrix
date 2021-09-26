@@ -18,7 +18,7 @@ Navigation: [README](README.md) - [EventType](EventType.md) - [ParameterCurve](P
 
 ### What is a Parameter Curve Point
 
-
+A curve can contain many points, and if you step back, you can see all the points together look like a curve. At a high point, the modulated value is high. At a low point, the modulated value is low
 
 
 

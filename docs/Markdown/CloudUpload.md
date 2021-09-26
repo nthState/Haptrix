@@ -7,7 +7,7 @@ Navigation: [README](README.md) - [Cloud](Cloud.md)
 
 
 
-
+To upload a Haptic with Haptrix, fill out the form
 
 
 ![Image](media/images/cloudUpload.png)
@@ -16,18 +16,9 @@ Navigation: [README](README.md) - [Cloud](Cloud.md)
 ---
 
 
-### 
+### Uploading
 
-
-
-
-
-
-
-
-### Content Requirements
-
-The AHAP file must have at least one event in before it can be uploaded
+Haptrix gathers up all assets that will be uploaded, check these assets are correct before you upload them.
 
 
 

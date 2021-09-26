@@ -7,20 +7,11 @@ Navigation: [README](README.md) - [EventType](EventType.md)
 
 
 
-
+How intense the Haptic is
 
 
 
 ---
-
-
-### 
-
-
-
-
-
-
 
 
 ### 

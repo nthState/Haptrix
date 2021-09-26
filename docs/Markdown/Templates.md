@@ -25,15 +25,6 @@ Haptrix ships with a selection of pre-made Haptic files that you can instantly l
 
 
 
-### 
-
-
-
-
-
-
-
-
 
 
 

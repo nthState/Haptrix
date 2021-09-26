@@ -36,7 +36,7 @@ Intensity, Sharpness, Brightness, Pan, Pitch, Volume
 
 ### Name
 
-
+Identifiable name
 
 
 
@@ -45,7 +45,7 @@ Intensity, Sharpness, Brightness, Pan, Pitch, Volume
 
 ### Parameter Type
 
-
+What should parameter over the Haptic should be modulated by this curve?
 
 
 

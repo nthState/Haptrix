@@ -7,7 +7,7 @@ Navigation: [README](README.md)
 
 
 
-
+Haptrix lets you upload and share your creations with the entire world
 
 
 ![Image](media/images/cloud.png)
@@ -16,18 +16,9 @@ Navigation: [README](README.md)
 ---
 
 
-### 
+### Accessing the Cloud
 
-
-
-
-
-
-
-
-### 
-
-
+Either Register/Login to get access to the upload facility
 
 
 

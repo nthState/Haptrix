@@ -14,9 +14,9 @@ Navigation: [README](README.md) - [EventType](EventType.md) - [ADSR](ADSR.md)
 ---
 
 
-### 
+### Sustain
 
-
+Sustain is the level during the main sequence of the sound's duration, until the key is released.
 
 
 

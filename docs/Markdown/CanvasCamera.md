@@ -23,18 +23,9 @@ The canvas has a concept of a Camera, this allows you to move freely around your
 
 
 
-### How do I Move with a Mouse?
+### How do I Move with a Mouse/Trackpad?
 
-
-
-
-
-
-
-
-### How do I Move with a Trackpad?
-
-
+To move the canvas, you can select the Move Canvas tool, then drag to move around the canvas
 
 
 

@@ -34,7 +34,7 @@ Please visit the Mac App Store to download Haptrix
 
 ### Launching Haptrix
 
-
+Go to Applications and click on Haptrix, or use Spotlight and type Haptrix to find the app
 
 
 

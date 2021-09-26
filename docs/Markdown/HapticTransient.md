@@ -27,7 +27,7 @@ The most commonly use Haptic Event is the Transient event, like hitting a drum, 
 
 ### Name
 
-
+Identifiable name
 
 
 

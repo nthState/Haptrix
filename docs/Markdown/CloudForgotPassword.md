@@ -7,22 +7,13 @@ Navigation: [README](README.md) - [Cloud](Cloud.md)
 
 
 
-
+If you have forgotton your password, fill in the form to be sent a password-reset email
 
 
 ![Image](media/images/cloudForgotPassword.png)
 
 
 ---
-
-
-### 
-
-
-
-
-
-
 
 
 ### 
