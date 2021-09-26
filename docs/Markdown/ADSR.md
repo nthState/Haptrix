@@ -7,7 +7,7 @@ Navigation: [README](README.md) - [EventType](EventType.md)
 
 
 
-
+ADSR is an acronym that represents the four parts of a sound's envelope
 
 
 
