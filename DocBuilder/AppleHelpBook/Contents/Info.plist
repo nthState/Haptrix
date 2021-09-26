@@ -32,7 +32,5 @@
 	<string>Haptrix Help</string>
 	<key>HPDBookUsesExternalViewer</key>
 	<false/>
-	<key>HPDBookRemoteURL</key>
-	<string>https://docs.haptrix.com/html</string>
 </dict>
 </plist>

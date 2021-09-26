@@ -29,7 +29,7 @@
 	"sections": [
 	    {
 			"title": "Export to *.AHAP File",
-			"text": "The default option Haptrix supports is writing to AHAP files directly, these are the files which are supported natively by iOS "
+			"text": "The default option Haptrix supports is writing to AHAP files directly, these are the files which are supported natively by iOS. You can optionally pretty print the output so that you get nicely formatted JSON"
 		},
 		{
 			"title": "Export to Web Vibration API",
