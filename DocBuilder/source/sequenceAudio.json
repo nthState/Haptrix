@@ -29,7 +29,7 @@
       },
   "title": "Importing & Sequencing Audio",
   "body": "You may want to import audio into your Haptic, but don't want to spend time manually going through and adding events on prominent beats. We have a solution that does this automatically",
-  "bodyImage": "sequenceAudio.png",
+  "bodyImage": "media/images/sequenceAudio.png",
   "sections": [
     {
         "title": "Audio File",
