@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "keywords": "audio",
+    "description": "Audio"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json", "events.json"],
+  "links": [],
+  "helpBookAnchor": "audio",
+  "urls": {
+        "web": "/audio",
+        "markdown": "Audio.md",
+        "appleHelpBook": "audio.html",
+        "githubDocs": "audio.html"
+      },
+  "title": "Audio",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "Audio",
+        "text": "Audio Events",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}
