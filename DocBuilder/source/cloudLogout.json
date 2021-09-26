@@ -28,17 +28,9 @@
         "githubDocs": "cloudLogout.html"
       },
   "title": "Logout",
-  "body": "",
+  "body": "Logout of the Haptrix Cloud if you want to login as a different user, or want to end your session",
   "bodyImage": "media/images/cloudLogout.png",
   "sections": [
-    {
-        "title": "",
-        "text": "",
-        "image": "",
-        "link": "",
-        "linkText": "",
-        "externalLink": ""
-    },
     {
         "title": "",
         "text": "",

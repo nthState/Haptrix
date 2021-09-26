@@ -28,20 +28,12 @@
         "githubDocs": "cloudUpload.html"
       },
   "title": "Upload",
-  "body": "",
+  "body": "To upload a Haptic with Haptrix, fill out the form",
   "bodyImage": "media/images/cloudUpload.png",
   "sections": [
     {
-        "title": "",
-        "text": "",
-        "image": "",
-        "link": "",
-        "linkText": "",
-        "externalLink": ""
-    },
-    {
-        "title": "Content Requirements",
-        "text": "The AHAP file must have at least one event in before it can be uploaded",
+        "title": "Uploading",
+        "text": "Haptrix gathers up all assets that will be uploaded, check these assets are correct before you upload them.",
         "image": "",
         "link": "",
         "linkText": "",

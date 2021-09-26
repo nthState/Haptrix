@@ -29,7 +29,7 @@
 	"sections": [
 	    {
 			"title": "Haptic Transient",
-			"text": "",
+			"text": "A short haptic hit",
 			"image": "",
 			"link": "hapticTransient.json",
 			"linkText": "Haptic Transient",
@@ -37,7 +37,7 @@
 		},
 		{
 			"title": "Haptic Continuous",
-			"text": "",
+			"text": "A haptic that lasts a certain amount of time",
 			"image": "",
 			"link": "hapticContinuous.json",
 			"linkText": "Haptic Continuous",
@@ -45,7 +45,7 @@
 		},
 		{
 			"title": "Audio Custom",
-			"text": "",
+			"text": "An audio clip",
 			"image": "",
 			"link": "audioCustom.json",
 			"linkText": "Audio Custom",
@@ -53,7 +53,7 @@
 		},
 		{
 			"title": "Audio Continuous",
-			"text": "",
+			"text": "An audio clip",
 			"image": "",
 			"link": "audioContinuous.json",
 			"linkText": "Audio Continuous",
@@ -61,7 +61,7 @@
 		},
 		{
 			"title": "Parameter Curve",
-			"text": "",
+			"text": "A curve that modulates your Haptic",
 			"image": "",
 			"link": "parameterCurve.json",
 			"linkText": "Parameter Curve",

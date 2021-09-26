@@ -33,7 +33,7 @@
   "sections": [
     {
         "title": "Audio Pan",
-        "text": "Left (-1) to Right (1) Audio from",
+        "text": "The side of the speaker that the sound comes from can be set as, Left (-1) to Right (1)",
         "image": "",
         "link": "",
         "linkText": "",

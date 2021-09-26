@@ -32,8 +32,8 @@
   "bodyImage": "",
   "sections": [
     {
-        "title": "",
-        "text": "",
+        "title": "Attack",
+        "text": "Attack is the time taken for initial run-up of level from nil to peak, beginning when the key is pressed.",
         "image": "",
         "link": "",
         "linkText": "",

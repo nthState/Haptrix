@@ -28,17 +28,9 @@
         "githubDocs": "cloudLogin.html"
       },
   "title": "Login",
-  "body": "",
+  "body": "Login to Haptrix Cloud so that you can upload your creations",
   "bodyImage": "media/images/cloudLogin.png",
   "sections": [
-    {
-        "title": "",
-        "text": "",
-        "image": "",
-        "link": "",
-        "linkText": "",
-        "externalLink": ""
-    },
     {
         "title": "",
         "text": "",

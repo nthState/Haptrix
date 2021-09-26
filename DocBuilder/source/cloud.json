@@ -28,20 +28,12 @@
         "githubDocs": "cloud.html"
       },
   "title": "Cloud",
-  "body": "",
+  "body": "Haptrix lets you upload and share your creations with the entire world",
   "bodyImage": "media/images/cloud.png",
   "sections": [
     {
-        "title": "",
-        "text": "",
-        "image": "",
-        "link": "",
-        "linkText": "",
-        "externalLink": ""
-    },
-    {
-        "title": "",
-        "text": "",
+        "title": "Accessing the Cloud",
+        "text": "Either Register/Login to get access to the upload facility",
         "image": "",
         "link": "",
         "linkText": "",

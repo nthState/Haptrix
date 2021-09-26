@@ -32,14 +32,19 @@
   "bodyImage": "",
   "sections": [
     {
-        "text": "Mouse Operations"
-    },
-    {
         "title": "Window Selection Tool",
         "text": "Whilst the Arrow tool is selected, holding down the Command Key allows you to draw a selection around multiple items. This allows you to select the items at once for Multiple Select",
         "image": "media/images/mouse_windowSelection.png",
         "link": "operatingMultipleSelect.json",
         "linkText": "Multiple Select",
+        "externalLink": ""
+    },
+    {
+        "title": "Space Drag",
+        "text": "If you hold space and then drag your mouse/trackpad, then the canvas will pan",
+        "image": "",
+        "link": "",
+        "linkText": "",
         "externalLink": ""
     }
   ],

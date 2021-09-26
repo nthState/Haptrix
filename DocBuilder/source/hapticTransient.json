@@ -41,7 +41,7 @@
     },
     {
         "title": "Name",
-        "text": "",
+        "text": "Identifiable name",
         "image": "",
         "link": "eventName.json",
         "linkText": "Event Name",

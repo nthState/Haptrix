@@ -27,20 +27,41 @@
         "appleHelpBook": "sequenceAudio.html",
     "githubDocs": "sequenceAudio.html"
       },
-  "title": "Sequencing Audio",
-  "body": "",
-  "bodyImage": "",
+  "title": "Importing & Sequencing Audio",
+  "body": "You may want to import audio into your Haptic, but don't want to spend time manually going through and adding events on prominent beats. We have a solution that does this automatically",
+  "bodyImage": "sequenceAudio.png",
   "sections": [
     {
-        "title": "",
-        "text": "",
+        "title": "Audio File",
+        "text": "Which audio file do you want to import",
         "image": "",
         "link": "",
         "linkText": "",
         "externalLink": ""
     },
     {
-        "text": ""
+        "title": "Beat Detection",
+        "text": "Check this if you want to add transient events on prominent beats",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "AutoTrace",
+        "text": "Check this if you want to add a parameter curve over the imported audio",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+    {
+        "title": "Sensitivity",
+        "text": "Sometimes you may want finer control over the detection, you can increase or decrease the sensitivity to help with this",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
     }
   ],
   "export": {

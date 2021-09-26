@@ -32,16 +32,8 @@
   "bodyImage": "media/images/canvas.png",
   "sections": [
     {
-        "title": "",
-        "text": "",
-        "image": "",
-        "link": "",
-        "linkText": "",
-        "externalLink": ""
-    },
-    {
-        "title": "",
-        "text": "",
+        "title": "Canvas",
+        "text": "The canvas is where you will add your Haptic Events, in most cases, you can click to add an item, or use the currently selected tool",
         "image": "",
         "link": "",
         "linkText": "",

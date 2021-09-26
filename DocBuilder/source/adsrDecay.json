@@ -32,8 +32,8 @@
   "bodyImage": "",
   "sections": [
     {
-        "title": "",
-        "text": "",
+        "title": "Decay",
+        "text": "Decay is the time taken for the subsequent run down from the attack level to the designated sustain level.",
         "image": "",
         "link": "",
         "linkText": "",

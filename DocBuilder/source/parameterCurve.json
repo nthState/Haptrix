@@ -49,7 +49,7 @@
     },
     {
         "title": "Name",
-        "text": "",
+        "text": "Identifiable name",
         "image": "",
         "link": "",
         "linkText": "",
@@ -57,7 +57,7 @@
     },
     {
         "title": "Parameter Type",
-        "text": "",
+        "text": "What should parameter over the Haptic should be modulated by this curve?",
         "image": "",
         "link": "",
         "linkText": "",

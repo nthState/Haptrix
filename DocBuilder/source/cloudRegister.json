@@ -28,17 +28,9 @@
         "githubDocs": "cloudRegister.html"
       },
   "title": "Register",
-  "body": "",
+  "body": "Create an account and register with Haptrix so that you can upload your creations to the internet",
   "bodyImage": "media/images/cloudRegister.png",
   "sections": [
-    {
-        "title": "",
-        "text": "",
-        "image": "",
-        "link": "",
-        "linkText": "",
-        "externalLink": ""
-    },
     {
         "title": "",
         "text": "",

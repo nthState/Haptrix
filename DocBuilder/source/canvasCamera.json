@@ -40,16 +40,8 @@
         "externalLink": ""
     },
     {
-        "title": "How do I Move with a Mouse?",
-        "text": "",
-        "image": "",
-        "link": "",
-        "linkText": "",
-        "externalLink": ""
-    },
-    {
-        "title": "How do I Move with a Trackpad?",
-        "text": "",
+        "title": "How do I Move with a Mouse/Trackpad?",
+        "text": "To move the canvas, you can select the Move Canvas tool, then drag to move around the canvas",
         "image": "",
         "link": "",
         "linkText": "",

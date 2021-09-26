@@ -33,9 +33,41 @@
   "sections": [
     {
         "title": "Audio",
-        "text": "Audio Events",
+        "text": "There are two audio-event types, Audio Continuous and Audio Custom",
         "image": "",
         "link": "",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Brightness",
+        "text": "",
+        "image": "",
+        "link": "audioBrightness.json",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Pan",
+        "text": "Change where you want your sound to come from, ie, left or right speaker",
+        "image": "",
+        "link": "audioPan.json",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Pitch",
+        "text": "How high or low you want the sounds to be",
+        "image": "",
+        "link": "audioPitch.json",
+        "linkText": "",
+        "externalLink": ""
+    },
+    {
+        "title": "Volume",
+        "text": "How quiet or loud you want the sound to be",
+        "image": "",
+        "link": "audioVolume.json",
         "linkText": "",
         "externalLink": ""
     }

@@ -28,20 +28,12 @@
         "githubDocs": "canvasSyncTimeline.html"
       },
   "title": "Canvas Sync Timeline",
-  "body": "",
+  "body": "Often times when you scroll horizontally on the canvas you will want the timeline to keep in-sync",
   "bodyImage": "",
   "sections": [
     {
-        "title": "",
-        "text": "",
-        "image": "",
-        "link": "",
-        "linkText": "",
-        "externalLink": ""
-    },
-    {
-        "title": "",
-        "text": "",
+        "title": "Toggle Canvas Sync",
+        "text": "To toggle this option, go to view and select sync canvas and timeline",
         "image": "",
         "link": "",
         "linkText": "",

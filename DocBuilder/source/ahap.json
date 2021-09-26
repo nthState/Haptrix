@@ -33,7 +33,7 @@
   "sections": [
     {
         "title": "AHAP - Apple Haptic and Audio Pattern",
-        "text": ".",
+        "text": "The AHAP file-format is used by Apple iPhone and Game Controllers as an easy-to-use JSON format for describing Haptic Patterns",
         "image": "",
         "link": "",
         "linkText": "",

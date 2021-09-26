@@ -28,20 +28,12 @@
         "githubDocs": "glyphs.html"
       },
   "title": "Glyphs",
-  "body": "",
+  "body": "We use small icons that hover above certain events in the canvas as easy to visualize information",
   "bodyImage": "",
   "sections": [
     {
-        "title": "",
-        "text": "",
-        "image": "",
-        "link": "",
-        "linkText": "",
-        "externalLink": ""
-    },
-    {
-        "title": "",
-        "text": "",
+        "title": "Glyph Example",
+        "text": "When using a pan on an audio event, the glyoh we use shows whther the audio is coming from the left or right speaker",
         "image": "",
         "link": "",
         "linkText": "",
