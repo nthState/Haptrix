@@ -19,6 +19,13 @@ def remove_html_tags(text):
     import re
     clean = re.compile('<.*?>')
     return re.sub(clean, '', text)
+    
+def replaceIfPrefix(document, prefixKey, str):
+    if 'prefixes' in document:
+        if prefixKey in document['prefixes']:
+            prefix =  document['prefixes'][prefixKey]
+            return "{}/{}".format(prefix,str)
+    return str
 
 # def customDocumentationDecoder(dic):
 #     return namedtuple('Documentation', dic.keys())(*dic.values())
@@ -77,7 +84,14 @@ for index, js in enumerate(json_files):
         if 'breadcrumbs' in documentation:
             breadcrumbs = documentation['breadcrumbs']
             for crumb in breadcrumbs:
-                newCrumbs.append(objectDic[crumb]['urls']['appleHelpBook'])
+                link = objectDic[crumb]['urls']['appleHelpBook']
+                linkText = os.path.basename(os.path.normpath(link))
+                link = replaceIfPrefix(documentation, 'appleHelpBook', link)
+                x = {
+                    "link": link,
+                    "linkText": linkText
+                }
+                newCrumbs.append(x)
         
         dic = {
             "title": documentation['title'],

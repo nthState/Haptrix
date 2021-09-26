@@ -19,7 +19,7 @@
     <div class="crumbs">
     <ol>
     {% for crumb in breadcrumbs %}
-        <li class="crumb"><a href="{{ crumb }}">{{ crumb | replace(".html", "") | capitalize }}</a></li>
+        <li class="crumb"><a href="{{ crumb.link }}">{{ crumb.linkText | replace(".html", "") | capitalize }}</a></li>
     {% endfor %}
     </ol>
     </div>
