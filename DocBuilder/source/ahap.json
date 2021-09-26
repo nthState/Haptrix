@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "keywords": "ahap",
+    "description": "Apple Haptic and Audio Pattern"
+  },
+  "media": {
+    "images": [
+      {
+        "lowres": "",
+        "hires": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": ""
+      }
+    ]
+  },
+  "related": [],
+  "children": [],
+  "breadcrumbs": ["index.json"],
+  "links": [],
+  "helpBookAnchor": "ahap",
+  "urls": {
+        "web": "/ahap",
+        "markdown": "AHAP.md",
+        "appleHelpBook": "ahap.html",
+        "githubDocs": "ahap.html"
+      },
+  "title": "Apple Haptic and Audio Pattern",
+  "body": "",
+  "bodyImage": "",
+  "sections": [
+    {
+        "title": "AHAP - Apple Haptic and Audio Pattern",
+        "text": ".",
+        "image": "",
+        "link": "",
+        "linkText": "",
+        "externalLink": ""
+    }
+  ],
+  "export": {
+    "include": [
+      "applehelpbook",
+      "web",
+      "markdown"
+    ]
+  }
+}
