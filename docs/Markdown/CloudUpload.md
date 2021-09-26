@@ -25,9 +25,9 @@ Navigation: [README](README.md) - [Cloud](Cloud.md)
 
 
 
-### 
+### Content Requirements
 
-
+The AHAP file must have at least one event in before it can be uploaded
 
 
 

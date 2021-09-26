@@ -18,7 +18,7 @@ Haptrix supports multiple export formats
 
 ### Export to *.AHAP File
 
-The default option Haptrix supports is writing to AHAP files directly, these are the files which are supported natively by iOS 
+The default option Haptrix supports is writing to AHAP files directly, these are the files which are supported natively by iOS. You can optionally pretty print the output so that you get nicely formatted JSON
 
 
 
