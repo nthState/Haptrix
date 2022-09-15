@@ -1,3 +1,10 @@
+## [Version macOS 3.5.1]() (15-09-2022)
+
+### Bug fixes
+
+- Vertical lines on the designer sometimes would not expand/collapse as time changes
+
+
 ## [Version macOS 3.5]() (14-09-2022)
 
 ### New features
