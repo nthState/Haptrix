@@ -1,3 +1,9 @@
+## [Version macOS 3.5.2]() (22-09-2022)
+
+### Bug fixes
+
+- Pressing Upload crashed the App, this was due to a SwiftUI change.
+
 ## [Version macOS 3.5.1]() (15-09-2022)
 
 ### Bug fixes
