@@ -1,3 +1,9 @@
+## [Version macOS 3.5.4]() (26-09-2022)
+
+### New Features
+
+- Improving Accessibility
+
 ## [Version macOS 3.5.3]() [Version iOS 2.1.3]() (26-09-2022)
 
 ### Bug fixes
