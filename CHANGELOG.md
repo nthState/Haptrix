@@ -1,3 +1,9 @@
+## [Version macOS 3.5.3]() [Version iOS 2.1.3]() (26-09-2022)
+
+### Bug fixes
+
+- Removed unstable Analytics Package
+
 ## [Version macOS 3.5.2]() (22-09-2022)
 
 ### Bug fixes
