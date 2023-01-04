@@ -1,3 +1,21 @@
+## [Version macOS 3.5.4]() (26-09-2022)
+
+### New Features
+
+- Improving Accessibility
+
+## [Version macOS 3.5.3]() [Version iOS 2.1.3]() (26-09-2022)
+
+### Bug fixes
+
+- Removed unstable Analytics Package
+
+## [Version macOS 3.5.2]() (22-09-2022)
+
+### Bug fixes
+
+- Pressing Upload crashed the App, this was due to a SwiftUI change.
+
 ## [Version macOS 3.5.1]() (15-09-2022)
 
 ### Bug fixes
