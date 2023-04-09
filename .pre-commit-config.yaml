@@ -1,0 +1,15 @@
+---
+repos:
+  - repo: https://github.com/commitizen-tools/commitizen
+    rev: v2.42.1
+    hooks:
+      - id: commitizen
+        
+  - repo: local
+    hooks:
+      - id: Swift-Lint
+        name: Swift-Lint
+        entry: /usr/local/bin/swiftlint . --strict --quiet true
+        language: script
+        pass_filenames: false
+      

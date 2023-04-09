@@ -1,0 +1,32 @@
+name: Clean up old workflow files
+
+on:
+  push:
+  
+concurrency:
+  group: "${{ github.ref }}_cleanup"
+  cancel-in-progress: true
+  
+
+    
+jobs:
+  cleanup:
+    name: Clean up Workflows
+    runs-on: macos-latest
+    timeout-minutes: 30
+    steps:
+      - name: Extract branch name
+        shell: bash
+        run: |
+            echo "branch=$(echo ${GITHUB_REF#refs/heads/})" >> $GITHUB_OUTPUT
+        id: extract_branch
+    
+      - name: Delete old workflow runs
+        uses: MajorScruffy/delete-old-workflow-runs@v0.3.0
+        with:
+          repository: ${{ github.repository }}              
+          older-than-seconds: 7200 #2 hours
+          branch: ${{ steps.extract_branch.outputs.branch }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          

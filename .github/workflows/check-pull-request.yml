@@ -1,0 +1,22 @@
+name: Pull Request Title Checker
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, labeled, unlabeled]
+
+concurrency:
+  group: "${{ github.ref }}_pullrequest"
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: macos-latest
+    timeout-minutes: 1
+    steps:
+      - name: Check Pull Request Title
+        uses: naveenk1223/action-pr-title@master
+        with:
+          regex: '.+'
+          allowed_prefixes: 'feature,fix,ci,build,chore,style,docs,refactor,perf,test'
+          prefix_case_sensitive: false
+          
