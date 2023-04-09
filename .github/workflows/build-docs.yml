@@ -1,6 +1,11 @@
-# This is a basic workflow to help you get started with Actions
+name: Build Documentation
 
-name: CI
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
 
 env:
   DOCS: "docs"
@@ -11,36 +16,18 @@ env:
   GIT_EMAIL: "test@github.com"
   GIT_NAME: "DocBot"
 
-# Controls when the workflow will run
-on:
-  # Triggers the workflow on push or pull request events but only for the main branch
-  push:
-    branches: [ main ]
-#    paths:
-#      - '**.json'
-  pull_request:
-    branches: [ main ]
-    #paths:
-#      - '**.json'
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
 
   checkWords:
-  
     runs-on: macos-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      #- name: checkout repo content
-      - uses: actions/checkout@v2 # checkout the repository content to github runner.
+      - name: Checkout
+        uses: actions/checkout@v3
+      
       - name: setup python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.8 #install the python needed
+          python-version: 3.8
           
       - name: Install dependencies
         run: |
@@ -51,34 +38,31 @@ jobs:
           python ${{ env.DOCSCRIPTS }}/checkDisallowedWords.py -src "${{ env.DOCSOURCE }}/"
     
 
-  # This workflow contains a single job called "build"
   buildMarkdown:
-    # The type of runner that the job will run on
-    runs-on: macos-latest
-    
+    runs-on: macos-latest 
     needs: checkWords
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      #- name: checkout repo content
-      - uses: actions/checkout@v2 # checkout the repository content to github runner.
+    
+      - name: Checkout
+        uses: actions/checkout@v3
+        
       - name: setup python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.8 #install the python needed
+          python-version: 3.8
           
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install jinja2
           
-      - name: Build Markdown Documentation # run the run.py to get the latest data
+      - name: Build Markdown Documentation
         run: |
           rm -rf ${{ env.DOCS }}/Markdown/*.md
           python ${{ env.DOCSCRIPTS }}/buildMarkdownDocumentation.py -t "${{ env.TEMPLATES }}/template.md" -src "${{ env.DOCSOURCE }}/" -dst "${{ env.DOCS }}/Markdown"
           cp -a ${{ env.DOCSOURCE }}/media ${{ env.DOCS }}/Markdown
           
-      - name: Commit files # commit the output folder
+      - name: Commit files
         run: |
           git config --local user.email ${{ env.GIT_EMAIL }}
           git config --local user.name ${{ env.GIT_NAME }}
@@ -88,26 +72,23 @@ jobs:
           git push
 
   buildAppleHelpBook:
-    # The type of runner that the job will run on
     runs-on: macos-latest
-    
     needs: buildMarkdown
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      #- name: checkout repo content
-      - uses: actions/checkout@v2 # checkout the repository content to github runner.
+      - name: Checkout
+        uses: actions/checkout@v3
+        
       - name: setup python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.8 #install the python needed
+          python-version: 3.8
           
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install jinja2
           
-      - name: Build Markdown Documentation # run the run.py to get the latest data
+      - name: Build Markdown Documentation
         run: |
           rm -rf ${{ env.DOCUGEN }}/AppleHelpBook/Contents/Resources/Base.lproj/*.html
           python ${{ env.DOCSCRIPTS }}/buildAppleHelpBook.py -t "${{ env.TEMPLATES }}/templateAppleHelpBook.html" -src "${{ env.DOCSOURCE }}/" -dst "${{ env.DOCUGEN }}/AppleHelpBook/Contents/Resources/Base.lproj"
@@ -134,54 +115,39 @@ jobs:
         run: |
           rm -rf ${{ env.DOCUGEN }}/AppleHelpBook/Contents/Resources/Base.lproj/media
           cp -a ${{ env.DOCSOURCE }}/media ${{ env.DOCUGEN }}/AppleHelpBook/Contents/Resources/Base.lproj/media
-          
-      #- name: Create .help file
-#        run: |
-#          rm -rf ${{ env.DOCUGEN }}/Haptrix.help
-#          rm -rf ${{ env.DOCUGEN }}/Haptrix.help.zip
-#          cp -a  ${{ env.DOCUGEN }}/AppleHelpBook ${{ env.DOCUGEN }}/Haptrix.help
-#          cd ${{ env.DOCUGEN }}
-#          zip -r Haptrix.help.zip Haptrix.help
-#          cd ..
-#          cp ${{ env.DOCUGEN }}/Haptrix.help.zip ${{ env.DOCS }}/Haptrix.help.zip
-          
-      - name: Commit files # commit the output folder
+
+      - name: Commit files
         run: |
           git config --local user.email ${{ env.GIT_EMAIL }}
           git config --local user.name ${{ env.GIT_NAME }}
           git pull
           git add ${{ env.DOCUGEN }}/AppleHelpBook/.
-          #git add ${{ env.DOCUGEN }}/Haptrix.help/.
-          #git add ${{ env.DOCS }}/Haptrix.help.zip
           git status
           git commit -m "Update Apple HelpBook files" || echo "No changes to commit"
           git push
           
   buildDocumentationSitemap:
-    # The type of runner that the job will run on
     runs-on: macos-latest
-    
     needs: checkWords
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      #- name: checkout repo content
-      - uses: actions/checkout@v2 # checkout the repository content to github runner.
+      - name: Checkout
+        uses: actions/checkout@v2
+        
       - name: setup python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.8 #install the python needed
+          python-version: 3.8
           
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install jinja2
           
-      - name: Build Markdown Documentation # run the run.py to get the latest data
+      - name: Build Markdown Documentation
         run: |
           python ${{ env.DOCSCRIPTS }}/buildDocumentationSitemap.py -t "${{ env.TEMPLATES }}/templateSitemap.xml" -src "${{ env.DOCSOURCE }}/" -dst "${{ env.DOCS }}"
           
-      - name: Commit files # commit the output folder
+      - name: Commit files
         run: |
           git config --local user.email ${{ env.GIT_EMAIL }}
           git config --local user.name ${{ env.GIT_NAME }}
@@ -191,35 +157,31 @@ jobs:
           git commit -m "Update Documentation Sitemap file" || echo "No changes to commit"
           git push
 
-  # This workflow contains a single job called "build"
   buildGitHubDocs:
-    # The type of runner that the job will run on
     runs-on: macos-latest
-    
     needs: buildAppleHelpBook
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      #- name: checkout repo content
-      - uses: actions/checkout@v2 # checkout the repository content to github runner.
+      - name: Checkout
+        uses: actions/checkout@v3
+        
       - name: setup python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.8 #install the python needed
+          python-version: 3.8
           
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install jinja2
           
-      - name: Build GitHub Documentation # run the run.py to get the latest data
+      - name: Build GitHub Documentation
         run: |
           rm -rf docs/*.html
           python ${{ env.DOCSCRIPTS }}/buildGitHubDocs.py -t "${{ env.TEMPLATES }}/templateGitHubDocs.html" -src "${{ env.DOCSOURCE }}/" -dst "${{ env.DOCS }}/html"
           cp -a ${{ env.DOCSOURCE }}/media ${{ env.DOCS }}/html
           cp -a ${{ env.DOCSOURCE }}/css ${{ env.DOCS }}/html
           
-      - name: Commit files # commit the output folder
+      - name: Commit files
         run: |
           git config --local user.email ${{ env.GIT_EMAIL }}
           git config --local user.name ${{ env.GIT_NAME }}
