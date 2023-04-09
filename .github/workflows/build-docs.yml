@@ -67,6 +67,7 @@ jobs:
           
       - name: Commit files
         run: |
+          git status
           git config --local user.email ${{ env.GIT_EMAIL }}
           git config --local user.name ${{ env.GIT_NAME }}
           git pull
@@ -124,6 +125,7 @@ jobs:
 
       - name: Commit files
         run: |
+          git status
           git config --local user.email ${{ env.GIT_EMAIL }}
           git config --local user.name ${{ env.GIT_NAME }}
           git pull
@@ -158,6 +160,7 @@ jobs:
           
       - name: Commit files
         run: |
+          git status
           git config --local user.email ${{ env.GIT_EMAIL }}
           git config --local user.name ${{ env.GIT_NAME }}
           git pull
@@ -195,6 +198,7 @@ jobs:
           
       - name: Commit files
         run: |
+          git status
           git config --local user.email ${{ env.GIT_EMAIL }}
           git config --local user.name ${{ env.GIT_NAME }}
           git pull
