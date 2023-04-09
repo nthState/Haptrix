@@ -2,9 +2,6 @@ name: Build Documentation
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
   workflow_dispatch:
 
 env:
@@ -46,7 +43,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          repository: ${{ github.repository }}
           fetch-depth: 0
         
       - name: setup python
@@ -82,7 +78,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          repository: ${{ github.repository }}
           fetch-depth: 0
         
       - name: setup python
@@ -141,7 +136,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          repository: ${{ github.repository }}
           fetch-depth: 0
         
       - name: setup python
@@ -176,7 +170,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          repository: ${{ github.repository }}
           fetch-depth: 0
         
       - name: setup python
