@@ -4,7 +4,7 @@ echo "Let's get started installing dependencies..."
 echo "Do you want to clone the repo?"
 select yn in "Yes" "No"; do
     case $yn in
-        Yes ) git clone git@github.com:nthState/HaptrixShared.git; break;;
+        Yes ) git clone git@github.com:nthState/Haptrix.git; break;;
         No ) break;;
     esac
 done
@@ -24,15 +24,6 @@ echo "Do you want to install Homebrew?"
 select yn in "Yes" "No"; do
     case $yn in
         Yes ) /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"; break;;
-        No ) break;;
-    esac
-done
-
-
-echo "Do you want to install SwiftLint?"
-select yn in "Yes" "No"; do
-    case $yn in
-        Yes ) brew install swiftlint; break;;
         No ) break;;
     esac
 done
