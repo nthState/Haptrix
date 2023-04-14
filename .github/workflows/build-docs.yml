@@ -16,7 +16,7 @@ env:
 jobs:
 
   checkWords:
-    runs-on: macos-latest
+    runs-on: self-hosted
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -36,7 +36,7 @@ jobs:
     
 
   buildMarkdown:
-    runs-on: macos-latest 
+    runs-on: self-hosted
     needs: checkWords
     steps:
     
@@ -72,7 +72,7 @@ jobs:
           git push
 
   buildAppleHelpBook:
-    runs-on: macos-latest
+    runs-on: self-hosted
     needs: buildMarkdown
     steps:
       - name: Checkout
@@ -130,7 +130,7 @@ jobs:
           git push
           
   buildDocumentationSitemap:
-    runs-on: macos-latest
+    runs-on: self-hosted
     needs: checkWords
     steps:
       - name: Checkout
@@ -164,7 +164,7 @@ jobs:
           git push
 
   buildGitHubDocs:
-    runs-on: macos-latest
+    runs-on: self-hosted
     needs: buildAppleHelpBook
     steps:
       - name: Checkout
