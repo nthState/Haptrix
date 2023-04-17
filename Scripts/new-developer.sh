@@ -1,10 +1,11 @@
-echo "Let's get started installing dependencies..."
+echo "Let's get started, we'll install dependencies and configure"
 
 
-echo "Do you want to clone the repo?"
+echo "Do you want to enable auto-signing your commits?"
+echo "Will use key `id_ed25519`"
 select yn in "Yes" "No"; do
     case $yn in
-        Yes ) git clone git@github.com:nthState/Haptrix.git; break;;
+        Yes ) git config --global gpg.format ssh; git config --global user.signingkey ~/.ssh/id_ed25519; git config --global commit.gpgsign true
         No ) break;;
     esac
 done
@@ -24,6 +25,15 @@ echo "Do you want to install Homebrew?"
 select yn in "Yes" "No"; do
     case $yn in
         Yes ) /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"; break;;
+        No ) break;;
+    esac
+done
+
+
+echo "Do you want to install SwiftLint?"
+select yn in "Yes" "No"; do
+    case $yn in
+        Yes ) brew install swiftlint; break;;
         No ) break;;
     esac
 done
