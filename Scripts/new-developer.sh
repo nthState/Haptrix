@@ -5,7 +5,7 @@ echo "Do you want to enable auto-signing your commits?"
 echo "Will use key `id_ed25519`"
 select yn in "Yes" "No"; do
     case $yn in
-        Yes ) git config --global gpg.format ssh; git config --global user.signingkey ~/.ssh/id_ed25519; git config --global commit.gpgsign true
+        Yes ) git config --global gpg.format ssh; git config --global user.signingkey ~/.ssh/id_ed25519.pub; git config --global commit.gpgsign true
         No ) break;;
     esac
 done
