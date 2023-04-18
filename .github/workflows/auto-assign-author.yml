@@ -12,6 +12,6 @@ permissions:
 
 jobs:
   assign-author:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - uses: toshimaru/auto-author-assign@v1.6.0
