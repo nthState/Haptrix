@@ -45,7 +45,7 @@ Haptrix can also generate pure Swift code for your Haptic, whilst it is easier t
 
 ### Export for Game Controllers
 
-PlayStation 5 Dual Sense and Xbox Series X Controllers support Core Haptics, this export option allows you to export setup code to run you Haptic Experience.If you connect a controller to your Mac, you can use run on device just like an iPhone to feel the vibration.Multiple controllers can be connected at once.
+PlayStation 5 Dual Sense and Xbox Series X Controllers support Core Haptics, this export option allows you to export setup code to run you Haptic Experience.If you connect a controller to your Mac, you can use run on device like an iPhone to feel the vibration.Multiple controllers can be connected at once.
 
 
 
