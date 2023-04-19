@@ -25,6 +25,4 @@ jobs:
           repository: ${{ github.repository }}              
           older-than-seconds: 7200 #2 hours
           branch: ${{ steps.extract_branch.outputs.branch }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
