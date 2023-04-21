@@ -9,7 +9,8 @@ permissions:
 
 jobs:
   assign-author:
-    runs-on: self-hosted
+    name: Assign PR Author
+    runs-on: [self-hosted, macOS]
     timeout-minutes: 1
     steps:
       - uses: toshimaru/auto-author-assign@v1.6.0

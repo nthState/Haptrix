@@ -10,7 +10,8 @@ concurrency:
 
 jobs:
   check:
-    runs-on: ubuntu-latest
+    name: Check PR Title
+    runs-on: [self-hosted, macOS]
     timeout-minutes: 1
     steps:
       - name: Check Pull Request Title

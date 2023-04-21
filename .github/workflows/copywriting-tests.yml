@@ -10,8 +10,8 @@ concurrency:
 jobs:
   test:
     name: Check Copywriting
-    runs-on: ubuntu-latest
-    timeout-minutes: 30
+    runs-on: [self-hosted, macOS]
+    timeout-minutes: 3
     steps:
     
       - name: Checkout
