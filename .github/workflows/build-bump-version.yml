@@ -24,12 +24,13 @@ jobs:
           passphrase: ${{ secrets.ORG_BOT_GPG_PASSPHRASE }}
           git_user_signingkey: true
         
+        
       - name: Find version, build number and update
         run: |
           # Find build number and increment
           CURRENT_PROJECT_VERSION=$(grep -w "CURRENT_PROJECT_VERSION" "${{ env.version_file }}" | cut -d'=' -f2 | tr -d ' ')
           ((CURRENT_PROJECT_VERSION+=1))
-          sed -i '' "s/\(CURRENT_PROJECT_VERSION *= *\).*/\1$CURRENT_PROJECT_VERSION/" "${{ env.version_file }}"
+          sed -i "s/\(CURRENT_PROJECT_VERSION *= *\).*/\1$CURRENT_PROJECT_VERSION/" "${{ env.version_file }}"
 
           # Find version number
           MARKETING_VERSION=$(grep -w "MARKETING_VERSION" "${{ env.version_file }}" | cut -d'=' -f2 | tr -d ' ')
