@@ -11,7 +11,7 @@ concurrency:
 jobs:
   check:
     name: Check PR Title
-    runs-on: [self-hosted, macOS]
+    runs-on: [self-hosted, Linux]
     timeout-minutes: 1
     steps:
       - name: Check Pull Request Title

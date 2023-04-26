@@ -10,7 +10,7 @@ concurrency:
 jobs:
   test:
     name: Check Copywriting
-    runs-on: [self-hosted, macOS]
+    runs-on: [self-hosted, Linux]
     timeout-minutes: 3
     steps:
     
