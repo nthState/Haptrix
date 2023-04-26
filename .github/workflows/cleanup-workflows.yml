@@ -12,7 +12,7 @@ concurrency:
 jobs:
   cleanup:
     name: Clean up Workflows
-    runs-on: [self-hosted, Linux]
+    runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
 

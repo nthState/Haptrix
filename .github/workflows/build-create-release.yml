@@ -13,7 +13,7 @@ on:
 jobs:
   changelog:
     name: Update Changelog, Create Release
-    runs-on: [self-hosted, Linux]
+    runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
     
