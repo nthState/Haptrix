@@ -1,0 +1,256 @@
+name: Build Documentation
+
+on:
+  push:
+  workflow_dispatch:
+
+env:
+  DOCS: "docs"
+  DOCUGEN: "DocBuilder"
+  DOCSOURCE: "DocBuilder/source"
+  TEMPLATES: "DocBuilder/templates"
+  DOCSCRIPTS: "DocBuilder/scripts"
+
+jobs:
+
+  checkWords:
+    runs-on: ubuntu-latest
+    name: Check disallowed words
+    timeout-minutes: 1
+    steps:
+    
+      - name: Checkout
+        uses: actions/checkout@v3
+      
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.8
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          
+      - name: Check disallowed words
+        run: |
+          python ${{ env.DOCSCRIPTS }}/checkDisallowedWords.py -src "${{ env.DOCSOURCE }}/"
+    
+
+  buildMarkdown:
+    runs-on: ubuntu-latest
+    needs: checkWords
+    name: Build Markdown
+    timeout-minutes: 3
+    steps:
+    
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          
+      - name: Import GPG Key
+        id: import-gpg
+        uses: crazy-max/ghaction-import-gpg@v5
+        with:
+          gpg_private_key: ${{ secrets.ORG_BOT_GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.ORG_BOT_GPG_PASSPHRASE }}
+          git_user_signingkey: true
+        
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.8
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install jinja2
+          
+      - name: Build Markdown Documentation
+        run: |
+          rm -rf ${{ env.DOCS }}/Markdown/*.md
+          python ${{ env.DOCSCRIPTS }}/buildMarkdownDocumentation.py -t "${{ env.TEMPLATES }}/template.md" -src "${{ env.DOCSOURCE }}/" -dst "${{ env.DOCS }}/Markdown"
+          cp -a ${{ env.DOCSOURCE }}/media ${{ env.DOCS }}/Markdown
+          
+      - name: Commit files
+        run: |
+          git status
+          git pull
+          git add ${{ env.DOCS }}/Markdown/.
+          git commit -S -m "Update markdown files" || echo "No changes to commit"
+          git push
+        env:
+          GIT_AUTHOR_NAME: ${{ steps.import-gpg.outputs.name }}
+          GIT_AUTHOR_EMAIL: ${{ steps.import-gpg.outputs.email }}
+          GIT_COMMITTER_NAME: ${{ steps.import-gpg.outputs.name }}
+          GIT_COMMITTER_EMAIL: ${{ steps.import-gpg.outputs.email }}
+
+  buildAppleHelpBook:
+    runs-on: macos-latest
+    needs: buildMarkdown
+    name: Build Apple Help Book
+    timeout-minutes: 3
+    steps:
+    
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          
+      - name: Import GPG Key
+        id: import-gpg
+        uses: crazy-max/ghaction-import-gpg@v5
+        with:
+          gpg_private_key: ${{ secrets.ORG_BOT_GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.ORG_BOT_GPG_PASSPHRASE }}
+          git_user_signingkey: true
+        
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.8
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install jinja2
+          
+      - name: Build Markdown Documentation
+        run: |
+          rm -rf ${{ env.DOCUGEN }}/AppleHelpBook/Contents/Resources/Base.lproj/*.html
+          python ${{ env.DOCSCRIPTS }}/buildAppleHelpBook.py -t "${{ env.TEMPLATES }}/templateAppleHelpBook.html" -src "${{ env.DOCSOURCE }}/" -dst "${{ env.DOCUGEN }}/AppleHelpBook/Contents/Resources/Base.lproj"
+          
+      - name: Generate Search Indexes
+        run: |
+          echo "Change directory"
+          cd ${{ env.DOCUGEN }}/AppleHelpBook/Contents/Resources/Base.lproj
+          
+          echo "Start advanced index generation"
+          hiutil -I corespotlight -Caf Base.lproj.cshelpindex -vv .
+          hiutil -I lsm  -Caf Base.lproj.helpindex -vv .
+          echo "Finish advanced index generation"
+
+          # hiutil -V (version is hiutil version 2.0 (66))
+
+          echo "examine .helpindex"
+          hiutil -I corespotlight -Af Base.lproj.helpindex
+          
+          echo "examine .cshelpindex"
+          hiutil -I corespotlight -Af Base.lproj.cshelpindex
+          
+      - name: Copy Media
+        run: |
+          rm -rf ${{ env.DOCUGEN }}/AppleHelpBook/Contents/Resources/Base.lproj/media
+          cp -a ${{ env.DOCSOURCE }}/media ${{ env.DOCUGEN }}/AppleHelpBook/Contents/Resources/Base.lproj/media
+
+      - name: Commit files
+        run: |
+          git status
+          git pull
+          git add ${{ env.DOCUGEN }}/AppleHelpBook/.
+          git status
+          git commit -S -m "Update Apple HelpBook files" || echo "No changes to commit"
+          git push
+        env:
+          GIT_AUTHOR_NAME: ${{ steps.import-gpg.outputs.name }}
+          GIT_AUTHOR_EMAIL: ${{ steps.import-gpg.outputs.email }}
+          GIT_COMMITTER_NAME: ${{ steps.import-gpg.outputs.name }}
+          GIT_COMMITTER_EMAIL: ${{ steps.import-gpg.outputs.email }}
+          
+  buildDocumentationSitemap:
+    runs-on: ubuntu-latest
+    needs: checkWords
+    name: Build Sitemap
+    timeout-minutes: 3
+    steps:
+    
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          
+      - name: Import GPG Key
+        id: import-gpg
+        uses: crazy-max/ghaction-import-gpg@v5
+        with:
+          gpg_private_key: ${{ secrets.ORG_BOT_GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.ORG_BOT_GPG_PASSPHRASE }}
+          git_user_signingkey: true
+        
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.8
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install jinja2
+          
+      - name: Build Markdown Documentation
+        run: |
+          python ${{ env.DOCSCRIPTS }}/buildDocumentationSitemap.py -t "${{ env.TEMPLATES }}/templateSitemap.xml" -src "${{ env.DOCSOURCE }}/" -dst "${{ env.DOCS }}"
+          
+      - name: Commit files
+        run: |
+          git status
+          git pull
+          git add ${{ env.DOCS }}/sitemap.xml
+          git status
+          git commit -S -m "Update Documentation Sitemap file" || echo "No changes to commit"
+          git push
+        env:
+          GIT_AUTHOR_NAME: ${{ steps.import-gpg.outputs.name }}
+          GIT_AUTHOR_EMAIL: ${{ steps.import-gpg.outputs.email }}
+          GIT_COMMITTER_NAME: ${{ steps.import-gpg.outputs.name }}
+          GIT_COMMITTER_EMAIL: ${{ steps.import-gpg.outputs.email }}
+
+  buildGitHubDocs:
+    runs-on: ubuntu-latest
+    needs: buildAppleHelpBook
+    name: Build GitHub Docs
+    timeout-minutes: 3
+    steps:
+    
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          
+      - name: Import GPG Key
+        id: import-gpg
+        uses: crazy-max/ghaction-import-gpg@v5
+        with:
+          gpg_private_key: ${{ secrets.ORG_BOT_GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.ORG_BOT_GPG_PASSPHRASE }}
+          git_user_signingkey: true
+        
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.8
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install jinja2
+          
+      - name: Build GitHub Documentation
+        run: |
+          rm -rf docs/*.html
+          python ${{ env.DOCSCRIPTS }}/buildGitHubDocs.py -t "${{ env.TEMPLATES }}/templateGitHubDocs.html" -src "${{ env.DOCSOURCE }}/" -dst "${{ env.DOCS }}/html"
+          cp -a ${{ env.DOCSOURCE }}/media ${{ env.DOCS }}/html
+          cp -a ${{ env.DOCSOURCE }}/css ${{ env.DOCS }}/html
+          
+      - name: Commit files
+        run: |
+          git status
+          git pull
+          git add ${{ env.DOCS }}/html/.
+          git commit -S -m "Update GitHub Doc files" || echo "No changes to commit"
+          git push
+        env:
+          GIT_AUTHOR_NAME: ${{ steps.import-gpg.outputs.name }}
+          GIT_AUTHOR_EMAIL: ${{ steps.import-gpg.outputs.email }}
+          GIT_COMMITTER_NAME: ${{ steps.import-gpg.outputs.name }}
+          GIT_COMMITTER_EMAIL: ${{ steps.import-gpg.outputs.email }}
