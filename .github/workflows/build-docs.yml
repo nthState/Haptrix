@@ -79,7 +79,7 @@ jobs:
           git status
           git pull
           git add ${{ env.DOCS }}/Markdown/.
-          git commit -S -m "Update markdown files" || echo "No changes to commit"
+          git commit -S -m "docs: Update markdown files [skip ci]" || echo "No changes to commit"
           git push
         env:
           GIT_AUTHOR_NAME: ${{ steps.import-gpg.outputs.name }}
@@ -151,7 +151,7 @@ jobs:
           git pull
           git add ${{ env.DOCUGEN }}/AppleHelpBook/.
           git status
-          git commit -S -m "Update Apple HelpBook files" || echo "No changes to commit"
+          git commit -S -m "docs: Update Apple HelpBook files [skip ci]" || echo "No changes to commit"
           git push
         env:
           GIT_AUTHOR_NAME: ${{ steps.import-gpg.outputs.name }}
@@ -199,7 +199,7 @@ jobs:
           git pull
           git add ${{ env.DOCS }}/sitemap.xml
           git status
-          git commit -S -m "Update Documentation Sitemap file" || echo "No changes to commit"
+          git commit -S -m "docs: Update Documentation Sitemap file [skip ci]" || echo "No changes to commit"
           git push
         env:
           GIT_AUTHOR_NAME: ${{ steps.import-gpg.outputs.name }}
@@ -249,7 +249,7 @@ jobs:
           git status
           git pull
           git add ${{ env.DOCS }}/html/.
-          git commit -S -m "Update GitHub Doc files" || echo "No changes to commit"
+          git commit -S -m "docs: Update GitHub Doc files [skip ci]" || echo "No changes to commit"
           git push
         env:
           GIT_AUTHOR_NAME: ${{ steps.import-gpg.outputs.name }}
