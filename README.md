@@ -1,6 +1,6 @@
 # Haptrix
 
-[![CI](https://github.com/nthState/Haptrix/actions/workflows/main.yml/badge.svg)](https://github.com/nthState/Haptrix/actions/workflows/main.yml)
+[![Release](https://github.com/nthState/Haptrix/actions/workflows/build-bump-version.yml/badge.svg)](https://github.com/nthState/Haptrix/actions/workflows/build-bump-version.yml)
 
 Design, Share and Experience Haptics
 
